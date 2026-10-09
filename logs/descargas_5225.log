@@ -1,0 +1,5 @@
+2026-10-09 09:54:41 | ERROR: URL inválida: hola.txt
+2026-10-09 09:54:50 | Iniciando descarga de https://ftp.gnu.org/gnu/hello/hello-2.12.tar.gz
+2026-10-09 09:54:53 | OK: descargado hello-2.12.tar.gz (996K) en descargas/
+2026-10-09 09:57:00 | Iniciando descarga de https://github.com/gisehweb/tp3-henriquez-5225/archive/refs/heads/main.zip
+2026-10-09 09:57:01 | OK: descargado main.zip (4,0K) en descargas/
