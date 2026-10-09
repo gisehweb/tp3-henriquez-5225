@@ -1,0 +1,72 @@
+# Reporte de errores de syslog - Legajo: 5225 | Token TP1: 5225-1302
+# Fuente: recursos/syslog_prueba.txt | Generado: 2026-10-09 10:50:40
+--------------------------------------------------------------------------------------------
+FECHA   HORA      PROCESO               MENSAJE (50 car.)
+--------------------------------------------------------------------------------------------
+Oct 09  10:41:37  NetworkManager        <info> [1791553297.3185] failed to open /run/netwo
+Oct 09  10:41:37  systemd               Started update-notifier-download.timer - Download 
+Oct 09  10:41:39  colord                failed to get edid data: EDID length is too small
+Oct 09  10:41:44  pipewire              mod.jackdbus-detect: Failed to receive jackdbus re
+Oct 09  10:41:46  /usr/libexec/gdm-way  dbus-daemon[1589]: [session uid=120 pid=1589] Acti
+Oct 09  10:41:46  gnome-session         gnome-session-binary[1592]: WARNING: Could not che
+Oct 09  10:41:46  gnome-session-binary  WARNING: Could not check if unit gnome-session-way
+Oct 09  10:41:46  wireplumber           Failed to get percentage from UPower: org.freedesk
+Oct 09  10:41:49  org.gnome.Shell.desk  libEGL warning: egl: failed to create dri2 screen
+Oct 09  10:41:49  org.gnome.Shell.desk  libEGL warning: egl: failed to create dri2 screen
+Oct 09  10:41:49  org.gnome.Shell.desk  libEGL warning: egl: failed to create dri2 screen
+Oct 09  10:41:49  gnome-shell           Failed to initialize accelerated iGPU/dGPU framebu
+Oct 09  10:41:49  org.gnome.Shell.desk  libEGL warning: egl: failed to create dri2 screen
+Oct 09  10:41:49  org.gnome.Shell.desk  libEGL warning: egl: failed to create dri2 screen
+Oct 09  10:41:49  org.gnome.Shell.desk  libEGL warning: egl: failed to create dri2 screen
+Oct 09  10:41:51  org.gnome.Shell.desk  Window manager warning: Failed to parse saved sess
+Oct 09  10:41:51  /usr/libexec/gdm-way  dbus-daemon[1589]: [session uid=120 pid=1589] Acti
+Oct 09  10:41:51  gsd-sharing           Failed to StopUnit service: GDBus.Error:org.freede
+Oct 09  10:41:51  gsd-sharing           Failed to StopUnit service: GDBus.Error:org.freede
+Oct 09  10:41:51  gnome-shell           Error looking up permission: GDBus.Error:org.freed
+Oct 09  10:41:52  org.gnome.Shell.desk  Failed to initialize glamor, falling back to sw
+Oct 09  10:41:52  org.gnome.Shell.desk  Errors from xkbcomp are not fatal to the X server
+Oct 09  10:41:53  org.gnome.Shell.desk  Errors from xkbcomp are not fatal to the X server
+Oct 09  10:41:54  org.gnome.Shell.desk  libEGL warning: DRI3 error: Could not get DRI3 dev
+Oct 09  10:41:55  gsd-media-keys        Failed to grab accelerator for keybinding settings
+Oct 09  10:41:55  gsd-media-keys        Failed to grab accelerator for keybinding settings
+Oct 09  10:44:54  gnome-shell           Gio.DBusError: GDBus.Error:org.freedesktop.DBus.Er
+Oct 09  10:44:54  gnome-shell           Gio.DBusError: GDBus.Error:org.freedesktop.DBus.Er
+Oct 09  10:44:58  pipewire              mod.jackdbus-detect: Failed to receive jackdbus re
+Oct 09  10:44:59  gdm3                  Gdm: on_display_added: assertion 'GDM_IS_REMOTE_DI
+Oct 09  10:45:00  gnome-shell           libEGL warning: egl: failed to create dri2 screen
+Oct 09  10:45:00  gnome-shell           libEGL warning: egl: failed to create dri2 screen
+Oct 09  10:45:00  gnome-shell           libEGL warning: egl: failed to create dri2 screen
+Oct 09  10:45:01  gnome-shell           Failed to initialize accelerated iGPU/dGPU framebu
+Oct 09  10:45:02  systemd               Dependency failed for org.gnome.SettingsDaemon.XSe
+Oct 09  10:45:02  systemd               org.gnome.SettingsDaemon.XSettings.service: Job or
+Oct 09  10:45:02  systemd               gnome-session-x11-services-ready.target: Job gnome
+Oct 09  10:45:02  at-spi2-registr       Failed to register client: GDBus.Error:org.gnome.S
+Oct 09  10:45:04  gnome-shell           libEGL warning: egl: failed to create dri2 screen
+Oct 09  10:45:04  gnome-shell           libEGL warning: egl: failed to create dri2 screen
+Oct 09  10:45:04  gnome-shell           libEGL warning: egl: failed to create dri2 screen
+Oct 09  10:45:04  gnome-shell           Error looking up permission: GDBus.Error:org.freed
+Oct 09  10:45:04  gnome-shell           Failed to import DBusMenu, quicklists are not avai
+Oct 09  10:45:04  gnome-shell           message repeated 2 times: [ Failed to import DBusM
+Oct 09  10:45:05  gnome-shell           Failed to initialize glamor, falling back to sw
+Oct 09  10:45:05  gnome-shell           Errors from xkbcomp are not fatal to the X server
+Oct 09  10:45:05  gsd-print-notif       Error releasing name org.gnome.SettingsDaemon.Prin
+Oct 09  10:45:05  gsd-sound             Error releasing name org.gnome.SettingsDaemon.Soun
+Oct 09  10:45:05  gnome-shell           (../src/core/meta-context.c:542):meta_context_term
+Oct 09  10:45:05  gnome-shell           JS ERROR: Gio.IOErrorEnum: Xwayland exited unexpec
+Oct 09  10:45:05  gsd-screensaver       Error releasing name org.freedesktop.ScreenSaver: 
+Oct 09  10:45:05  gsd-sharing           Error releasing name org.gnome.SettingsDaemon.Shar
+Oct 09  10:45:05  gsd-rfkill            Error releasing name org.gnome.SettingsDaemon.Rfki
+Oct 09  10:45:05  gdm3                  Gdm: on_display_removed: assertion 'GDM_IS_REMOTE_
+Oct 09  10:45:05  gnome-shell           Errors from xkbcomp are not fatal to the X server
+Oct 09  10:45:06  gsd-media-keys        Failed to grab accelerator for keybinding settings
+Oct 09  10:45:06  gsd-media-keys        Failed to grab accelerator for keybinding settings
+Oct 09  10:45:08  gnome-shell           libEGL warning: DRI3 error: Could not get DRI3 dev
+Oct 09  10:45:09  tracker-miner-fs-3    (tracker-extract-3:3003): GLib-GIO-WARNING **: 10:
+Oct 09  10:45:11  gnome-shell           meta_window_set_stack_position_no_sync: assertion 
+Oct 09  10:45:12  snapd-desktop-i       Failed to open display
+Oct 09  10:45:12  systemd               snap.snapd-desktop-integration.snapd-desktop-integ
+Oct 09  10:45:38  tracker-miner-fs-3    (tracker-extract-3:3170): GLib-GIO-WARNING **: 10:
+Oct 09  10:46:22  systemd               Starting update-notifier-download.service - Downlo
+Oct 09  10:46:23  systemd               Finished update-notifier-download.service - Downlo
+--------------------------------------------------------------------------------------------
+Total de registros con error/fail/critical: 65

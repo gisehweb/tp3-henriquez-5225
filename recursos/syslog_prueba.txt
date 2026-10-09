@@ -1,0 +1,1000 @@
+2026-10-09T10:41:35.926756-03:00 curzas-alumno-5225 kernel: NET: Registered PF_QIPCRTR protocol family
+2026-10-09T10:41:35.929522-03:00 curzas-alumno-5225 systemd[1]: Started ModemManager.service - Modem Manager.
+2026-10-09T10:41:36.570408-03:00 curzas-alumno-5225 systemd[1]: Finished apport.service - automatic crash report generation.
+2026-10-09T10:41:36.748501-03:00 curzas-alumno-5225 generate[1356]: Permissions for /etc/netplan/01-network-manager-all.yaml are too open. Netplan configuration should NOT be accessible by others.
+2026-10-09T10:41:36.822631-03:00 curzas-alumno-5225 systemd[1]: Reloading requested from client PID 1359 ('systemctl') (unit NetworkManager.service)...
+2026-10-09T10:41:36.822810-03:00 curzas-alumno-5225 systemd[1]: Reloading...
+2026-10-09T10:41:37.117483-03:00 curzas-alumno-5225 systemd[1]: Reloading finished in 294 ms.
+2026-10-09T10:41:37.213366-03:00 curzas-alumno-5225 NetworkManager[1221]: <info>  [1791553297.2131] dhcp: init: Using DHCP client 'internal'
+2026-10-09T10:41:37.214052-03:00 curzas-alumno-5225 NetworkManager[1221]: <info>  [1791553297.2139] manager: (lo): new Loopback device (/org/freedesktop/NetworkManager/Devices/1)
+2026-10-09T10:41:37.215224-03:00 curzas-alumno-5225 NetworkManager[1221]: <info>  [1791553297.2151] device (lo): state change: unmanaged -> unavailable (reason 'connection-assumed', sys-iface-state: 'external')
+2026-10-09T10:41:37.215868-03:00 curzas-alumno-5225 NetworkManager[1221]: <info>  [1791553297.2158] device (lo): state change: unavailable -> disconnected (reason 'connection-assumed', sys-iface-state: 'external')
+2026-10-09T10:41:37.216684-03:00 curzas-alumno-5225 NetworkManager[1221]: <info>  [1791553297.2165] device (lo): Activation: starting connection 'lo' (d9a0b278-2247-4fc5-9178-7830b6db919e)
+2026-10-09T10:41:37.217222-03:00 curzas-alumno-5225 NetworkManager[1221]: <info>  [1791553297.2171] manager: (enp0s3): new Ethernet device (/org/freedesktop/NetworkManager/Devices/2)
+2026-10-09T10:41:37.219298-03:00 curzas-alumno-5225 NetworkManager[1221]: <info>  [1791553297.2177] device (enp0s3): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+2026-10-09T10:41:37.234078-03:00 curzas-alumno-5225 systemd[1]: var-lib-containers-storage-overlay.mount: Deactivated successfully.
+2026-10-09T10:41:37.239157-03:00 curzas-alumno-5225 systemd[1]: podman.service: Deactivated successfully.
+2026-10-09T10:41:37.247734-03:00 curzas-alumno-5225 kernel: e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+2026-10-09T10:41:37.254951-03:00 curzas-alumno-5225 NetworkManager[1221]: <info>  [1791553297.2549] manager: (enp0s8): new Ethernet device (/org/freedesktop/NetworkManager/Devices/3)
+2026-10-09T10:41:37.255452-03:00 curzas-alumno-5225 NetworkManager[1221]: <info>  [1791553297.2554] device (enp0s8): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+2026-10-09T10:41:37.270440-03:00 curzas-alumno-5225 kernel: e1000: enp0s8 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+2026-10-09T10:41:37.318665-03:00 curzas-alumno-5225 NetworkManager[1221]: <info>  [1791553297.3185] failed to open /run/network/ifstate
+2026-10-09T10:41:37.319395-03:00 curzas-alumno-5225 NetworkManager[1221]: <info>  [1791553297.3193] bus-manager: acquired D-Bus service "org.freedesktop.NetworkManager"
+2026-10-09T10:41:37.319655-03:00 curzas-alumno-5225 systemd[1]: Started NetworkManager.service - Network Manager.
+2026-10-09T10:41:37.324272-03:00 curzas-alumno-5225 NetworkManager[1221]: <info>  [1791553297.3205] device (lo): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'external')
+2026-10-09T10:41:37.324324-03:00 curzas-alumno-5225 NetworkManager[1221]: <info>  [1791553297.3206] device (lo): state change: prepare -> config (reason 'none', sys-iface-state: 'external')
+2026-10-09T10:41:37.324353-03:00 curzas-alumno-5225 NetworkManager[1221]: <info>  [1791553297.3207] device (lo): state change: config -> ip-config (reason 'none', sys-iface-state: 'external')
+2026-10-09T10:41:37.324384-03:00 curzas-alumno-5225 NetworkManager[1221]: <info>  [1791553297.3208] device (enp0s3): carrier: link connected
+2026-10-09T10:41:37.324412-03:00 curzas-alumno-5225 systemd[1]: Reached target network.target - Network.
+2026-10-09T10:41:37.324468-03:00 curzas-alumno-5225 systemd[1]: Starting NetworkManager-wait-online.service - Network Manager Wait Online...
+2026-10-09T10:41:37.326880-03:00 curzas-alumno-5225 systemd[1]: Starting cups.service - CUPS Scheduler...
+2026-10-09T10:41:37.343028-03:00 curzas-alumno-5225 systemd[1]: Starting openvpn.service - OpenVPN service...
+2026-10-09T10:41:37.343093-03:00 curzas-alumno-5225 systemd[1]: Starting systemd-user-sessions.service - Permit User Sessions...
+2026-10-09T10:41:37.343120-03:00 curzas-alumno-5225 systemd[1]: Started unattended-upgrades.service - Unattended Upgrades Shutdown.
+2026-10-09T10:41:37.343151-03:00 curzas-alumno-5225 NetworkManager[1221]: <info>  [1791553297.3427] device (enp0s8): carrier: link connected
+2026-10-09T10:41:37.348475-03:00 curzas-alumno-5225 NetworkManager[1221]: <info>  [1791553297.3483] device (lo): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'external')
+2026-10-09T10:41:37.354780-03:00 curzas-alumno-5225 NetworkManager[1221]: <info>  [1791553297.3489] device (enp0s3): state change: unavailable -> disconnected (reason 'carrier-changed', sys-iface-state: 'managed')
+2026-10-09T10:41:37.366839-03:00 curzas-alumno-5225 NetworkManager[1221]: <info>  [1791553297.3668] device (enp0s8): state change: unavailable -> disconnected (reason 'carrier-changed', sys-iface-state: 'managed')
+2026-10-09T10:41:37.377809-03:00 curzas-alumno-5225 NetworkManager[1221]: <info>  [1791553297.3777] modem-manager: ModemManager available
+2026-10-09T10:41:37.378450-03:00 curzas-alumno-5225 NetworkManager[1221]: <info>  [1791553297.3779] policy: auto-activating connection 'netplan-enp0s3' (1eef7e45-3b9d-3043-bee3-fc5925c90273)
+2026-10-09T10:41:37.378496-03:00 curzas-alumno-5225 NetworkManager[1221]: <info>  [1791553297.3780] policy: auto-activating connection 'redtp2' (10005e94-6151-4df7-83a4-50cff04fcccb)
+2026-10-09T10:41:37.378520-03:00 curzas-alumno-5225 NetworkManager[1221]: <info>  [1791553297.3781] device (lo): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'external')
+2026-10-09T10:41:37.383770-03:00 curzas-alumno-5225 NetworkManager[1221]: <info>  [1791553297.3787] device (enp0s3): Activation: starting connection 'netplan-enp0s3' (1eef7e45-3b9d-3043-bee3-fc5925c90273)
+2026-10-09T10:41:37.383809-03:00 curzas-alumno-5225 NetworkManager[1221]: <info>  [1791553297.3789] device (enp0s8): Activation: starting connection 'redtp2' (10005e94-6151-4df7-83a4-50cff04fcccb)
+2026-10-09T10:41:37.383839-03:00 curzas-alumno-5225 NetworkManager[1221]: <info>  [1791553297.3789] device (lo): state change: secondaries -> activated (reason 'none', sys-iface-state: 'external')
+2026-10-09T10:41:37.383865-03:00 curzas-alumno-5225 NetworkManager[1221]: <info>  [1791553297.3793] device (lo): Activation: successful, device activated.
+2026-10-09T10:41:37.383891-03:00 curzas-alumno-5225 NetworkManager[1221]: <info>  [1791553297.3795] device (enp0s3): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+2026-10-09T10:41:37.383911-03:00 curzas-alumno-5225 NetworkManager[1221]: <info>  [1791553297.3796] manager: NetworkManager state is now CONNECTING
+2026-10-09T10:41:37.383934-03:00 curzas-alumno-5225 NetworkManager[1221]: <info>  [1791553297.3797] device (enp0s3): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+2026-10-09T10:41:37.388580-03:00 curzas-alumno-5225 systemd[1]: Finished systemd-user-sessions.service - Permit User Sessions.
+2026-10-09T10:41:37.390212-03:00 curzas-alumno-5225 systemd[1]: Starting gdm.service - GNOME Display Manager...
+2026-10-09T10:41:37.391500-03:00 curzas-alumno-5225 systemd[1]: Starting plymouth-quit-wait.service - Hold until boot process finishes up...
+2026-10-09T10:41:37.404633-03:00 curzas-alumno-5225 NetworkManager[1221]: <info>  [1791553297.3981] device (enp0s8): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+2026-10-09T10:41:37.404676-03:00 curzas-alumno-5225 NetworkManager[1221]: <info>  [1791553297.3983] device (enp0s8): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+2026-10-09T10:41:37.413655-03:00 curzas-alumno-5225 NetworkManager[1221]: <info>  [1791553297.4136] device (enp0s3): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+2026-10-09T10:41:37.415313-03:00 curzas-alumno-5225 NetworkManager[1221]: <info>  [1791553297.4152] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+2026-10-09T10:41:37.458515-03:00 curzas-alumno-5225 systemd[1]: Finished openvpn.service - OpenVPN service.
+2026-10-09T10:41:37.489239-03:00 curzas-alumno-5225 NetworkManager[1221]: <info>  [1791553297.4847] device (enp0s8): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+2026-10-09T10:41:37.604292-03:00 curzas-alumno-5225 NetworkManager[1221]: <info>  [1791553297.6039] dhcp4 (enp0s3): state changed new lease, address=192.168.30.78, acd pending
+2026-10-09T10:41:37.763241-03:00 curzas-alumno-5225 NetworkManager[1221]: <info>  [1791553297.7631] dhcp4 (enp0s3): state changed new lease, address=192.168.30.78
+2026-10-09T10:41:37.764342-03:00 curzas-alumno-5225 NetworkManager[1221]: <info>  [1791553297.7643] policy: set 'netplan-enp0s3' (enp0s3) as default for IPv4 routing and DNS
+2026-10-09T10:41:37.766123-03:00 curzas-alumno-5225 systemd-resolved[377]: enp0s3: Bus client set default route setting: yes
+2026-10-09T10:41:37.781768-03:00 curzas-alumno-5225 avahi-daemon[884]: Joining mDNS multicast group on interface enp0s3.IPv4 with address 192.168.30.78.
+2026-10-09T10:41:37.783121-03:00 curzas-alumno-5225 systemd-resolved[377]: enp0s3: Bus client set DNS server list to: 192.168.30.1, 8.8.8.8, 8.8.4.4
+2026-10-09T10:41:37.783986-03:00 curzas-alumno-5225 systemd-resolved[377]: enp0s8: Bus client set default route setting: no
+2026-10-09T10:41:37.790628-03:00 curzas-alumno-5225 avahi-daemon[884]: New relevant interface enp0s3.IPv4 for mDNS.
+2026-10-09T10:41:37.791735-03:00 curzas-alumno-5225 avahi-daemon[884]: Registering new address record for 192.168.30.78 on enp0s3.IPv4.
+2026-10-09T10:41:37.869724-03:00 curzas-alumno-5225 NetworkManager[1221]: <info>  [1791553297.8692] device (enp0s3): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+2026-10-09T10:41:37.873043-03:00 curzas-alumno-5225 avahi-daemon[884]: Joining mDNS multicast group on interface enp0s8.IPv4 with address 10.2.100.1.
+2026-10-09T10:41:37.875696-03:00 curzas-alumno-5225 NetworkManager[1221]: <info>  [1791553297.8746] device (enp0s8): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+2026-10-09T10:41:37.875736-03:00 curzas-alumno-5225 NetworkManager[1221]: <info>  [1791553297.8749] device (enp0s3): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+2026-10-09T10:41:37.875763-03:00 curzas-alumno-5225 NetworkManager[1221]: <info>  [1791553297.8749] device (enp0s3): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+2026-10-09T10:41:37.875792-03:00 curzas-alumno-5225 NetworkManager[1221]: <info>  [1791553297.8751] device (enp0s3): Activation: successful, device activated.
+2026-10-09T10:41:37.884450-03:00 curzas-alumno-5225 avahi-daemon[884]: New relevant interface enp0s8.IPv4 for mDNS.
+2026-10-09T10:41:37.884528-03:00 curzas-alumno-5225 avahi-daemon[884]: Registering new address record for 10.2.100.1 on enp0s8.IPv4.
+2026-10-09T10:41:37.897818-03:00 curzas-alumno-5225 systemd-resolved[377]: Using degraded feature set UDP instead of UDP+EDNS0 for DNS server 192.168.30.1.
+2026-10-09T10:41:37.920021-03:00 curzas-alumno-5225 NetworkManager[1221]: <info>  [1791553297.9199] device (enp0s8): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+2026-10-09T10:41:37.920231-03:00 curzas-alumno-5225 NetworkManager[1221]: <info>  [1791553297.9201] device (enp0s8): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+2026-10-09T10:41:37.921533-03:00 curzas-alumno-5225 NetworkManager[1221]: <info>  [1791553297.9215] manager: NetworkManager state is now CONNECTED_SITE
+2026-10-09T10:41:37.922639-03:00 curzas-alumno-5225 NetworkManager[1221]: <info>  [1791553297.9226] device (enp0s8): Activation: successful, device activated.
+2026-10-09T10:41:37.922939-03:00 curzas-alumno-5225 NetworkManager[1221]: <info>  [1791553297.9229] manager: startup complete
+2026-10-09T10:41:37.927463-03:00 curzas-alumno-5225 systemd[1]: Finished NetworkManager-wait-online.service - Network Manager Wait Online.
+2026-10-09T10:41:37.928337-03:00 curzas-alumno-5225 systemd[1]: Reached target network-online.target - Network is Online.
+2026-10-09T10:41:37.928626-03:00 curzas-alumno-5225 systemd[1]: Started update-notifier-download.timer - Download data for packages that failed at package install time.
+2026-10-09T10:41:37.928926-03:00 curzas-alumno-5225 systemd[1]: Started update-notifier-motd.timer - Check to see whether there is a new version of Ubuntu available.
+2026-10-09T10:41:37.929249-03:00 curzas-alumno-5225 systemd[1]: Reached target timers.target - Timer Units.
+2026-10-09T10:41:37.938941-03:00 curzas-alumno-5225 systemd[1]: Starting kerneloops.service - Tool to automatically collect and submit kernel crash signatures...
+2026-10-09T10:41:37.950040-03:00 curzas-alumno-5225 systemd[1]: Starting nfs-idmapd.service - NFSv4 ID-name mapping service...
+2026-10-09T10:41:37.950773-03:00 curzas-alumno-5225 systemd[1]: Starting nfs-mountd.service - NFS Mount Daemon...
+2026-10-09T10:41:37.961145-03:00 curzas-alumno-5225 systemd[1]: Starting podman-auto-update.service - Podman auto-update service...
+2026-10-09T10:41:37.961190-03:00 curzas-alumno-5225 systemd[1]: Starting podman-restart.service - Podman Start All Containers With Restart Policy Set To Always...
+2026-10-09T10:41:37.961216-03:00 curzas-alumno-5225 systemd[1]: Starting rpc-statd.service - NFS status monitor for NFSv2/3 locking....
+2026-10-09T10:41:37.963385-03:00 curzas-alumno-5225 systemd[1]: Starting samba-ad-dc.service - Samba AD Daemon...
+2026-10-09T10:41:37.963423-03:00 curzas-alumno-5225 systemd[1]: ubuntu-advantage.service - Ubuntu Pro Background Auto Attach was skipped because no trigger condition checks were met.
+2026-10-09T10:41:38.041749-03:00 curzas-alumno-5225 podman[1440]: time="2026-10-09T10:41:38-03:00" level=info msg="/usr/bin/podman filtering at log level info"
+2026-10-09T10:41:38.045187-03:00 curzas-alumno-5225 podman[1440]: time="2026-10-09T10:41:38-03:00" level=info msg="Using sqlite as database backend"
+2026-10-09T10:41:38.050964-03:00 curzas-alumno-5225 podman[1440]: time="2026-10-09T10:41:38-03:00" level=info msg="[graphdriver] using prior storage driver: overlay"
+2026-10-09T10:41:38.066611-03:00 curzas-alumno-5225 systemd[1]: var-lib-containers-storage-overlay.mount: Deactivated successfully.
+2026-10-09T10:41:38.066666-03:00 curzas-alumno-5225 podman[1440]: time="2026-10-09T10:41:38-03:00" level=info msg="Setting parallel job count to 4"
+2026-10-09T10:41:38.074272-03:00 curzas-alumno-5225 rpc.idmapd[1454]: Setting log level to 0
+2026-10-09T10:41:38.080317-03:00 curzas-alumno-5225 rpc.idmapd[1454]: libnfsidmap: Unable to determine the NFSv4 domain; Using 'localdomain' as the NFSv4 domain which means UIDs will be mapped to the 'Nobody-User' user defined in /etc/idmapd.conf
+2026-10-09T10:41:38.080352-03:00 curzas-alumno-5225 systemd[1]: kerneloops.service: Found left-over process 1455 (kerneloops) in control group while starting unit. Ignoring.
+2026-10-09T10:41:38.080425-03:00 curzas-alumno-5225 systemd[1]: kerneloops.service: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
+2026-10-09T10:41:38.104344-03:00 curzas-alumno-5225 systemd[1]: Finished podman-restart.service - Podman Start All Containers With Restart Policy Set To Always.
+2026-10-09T10:41:38.109684-03:00 curzas-alumno-5225 (rneloops)[1458]: kerneloops.service: Referenced but unset environment variable evaluates to an empty string: DAEMON_ARGS
+2026-10-09T10:41:38.119467-03:00 curzas-alumno-5225 systemd[1]: Started kerneloops.service - Tool to automatically collect and submit kernel crash signatures.
+2026-10-09T10:41:38.156512-03:00 curzas-alumno-5225 systemd[1]: podman-auto-update.service: Deactivated successfully.
+2026-10-09T10:41:38.156660-03:00 curzas-alumno-5225 systemd[1]: Finished podman-auto-update.service - Podman auto-update service.
+2026-10-09T10:41:38.162992-03:00 curzas-alumno-5225 rpc.statd[1469]: Version 2.6.4 starting
+2026-10-09T10:41:38.163043-03:00 curzas-alumno-5225 rpc.statd[1469]: Flags: TI-RPC 
+2026-10-09T10:41:38.167319-03:00 curzas-alumno-5225 rpc.mountd[1471]: Version 2.6.4 starting
+2026-10-09T10:41:38.170306-03:00 curzas-alumno-5225 systemd[1]: Started nfs-mountd.service - NFS Mount Daemon.
+2026-10-09T10:41:38.192927-03:00 curzas-alumno-5225 systemd[1]: Started nfs-idmapd.service - NFSv4 ID-name mapping service.
+2026-10-09T10:41:38.227568-03:00 curzas-alumno-5225 systemd[1]: var-lib-containers-storage-overlay.mount: Deactivated successfully.
+2026-10-09T10:41:38.243856-03:00 curzas-alumno-5225 systemd[1]: Started rpc-statd.service - NFS status monitor for NFSv2/3 locking..
+2026-10-09T10:41:38.251174-03:00 curzas-alumno-5225 systemd[1]: Starting nfs-server.service - NFS server and services...
+2026-10-09T10:41:38.256997-03:00 curzas-alumno-5225 NetworkManager[1221]: <info>  [1791553298.2568] manager: NetworkManager state is now CONNECTED_GLOBAL
+2026-10-09T10:41:38.483452-03:00 curzas-alumno-5225 systemd[1]: Started gdm.service - GNOME Display Manager.
+2026-10-09T10:41:38.509266-03:00 curzas-alumno-5225 systemd[1]: Received SIGRTMIN+21 from PID 154 (plymouthd).
+2026-10-09T10:41:38.610868-03:00 curzas-alumno-5225 kernel: NFSD: Using nfsdcld client tracking operations.
+2026-10-09T10:41:38.610881-03:00 curzas-alumno-5225 kernel: NFSD: no clients to reclaim, skipping NFSv4 grace period (net effffff9)
+2026-10-09T10:41:38.727470-03:00 curzas-alumno-5225 systemd[1]: Finished nfs-server.service - NFS server and services.
+2026-10-09T10:41:38.734444-03:00 curzas-alumno-5225 systemd[1]: Starting rpc-statd-notify.service - Notify NFS peers of a restart...
+2026-10-09T10:41:38.813839-03:00 curzas-alumno-5225 sm-notify[1503]: Version 2.6.4 starting
+2026-10-09T10:41:38.814959-03:00 curzas-alumno-5225 dbus-daemon[885]: [system] Activating via systemd: service name='org.freedesktop.ColorManager' unit='colord.service' requested by ':1.25' (uid=0 pid=1420 comm="/usr/sbin/cupsd -l" label="/usr/sbin/cupsd (enforce)")
+2026-10-09T10:41:38.844891-03:00 curzas-alumno-5225 systemd[1]: Starting colord.service - Manage, Install and Generate Color Profiles...
+2026-10-09T10:41:38.867400-03:00 curzas-alumno-5225 systemd[1]: Started rpc-statd-notify.service - Notify NFS peers of a restart.
+2026-10-09T10:41:39.274600-03:00 curzas-alumno-5225 avahi-daemon[884]: Joining mDNS multicast group on interface enp0s3.IPv6 with address fe80::a00:27ff:fec1:8b89.
+2026-10-09T10:41:39.274832-03:00 curzas-alumno-5225 avahi-daemon[884]: New relevant interface enp0s3.IPv6 for mDNS.
+2026-10-09T10:41:39.274916-03:00 curzas-alumno-5225 avahi-daemon[884]: Registering new address record for fe80::a00:27ff:fec1:8b89 on enp0s3.*.
+2026-10-09T10:41:39.292301-03:00 curzas-alumno-5225 colord[1505]: failed to get edid data: EDID length is too small
+2026-10-09T10:41:39.371118-03:00 curzas-alumno-5225 dbus-daemon[885]: [system] Successfully activated service 'org.freedesktop.ColorManager'
+2026-10-09T10:41:39.371307-03:00 curzas-alumno-5225 systemd[1]: Started colord.service - Manage, Install and Generate Color Profiles.
+2026-10-09T10:41:39.588330-03:00 curzas-alumno-5225 systemd[1]: Created slice user-120.slice - User Slice of UID 120.
+2026-10-09T10:41:39.598310-03:00 curzas-alumno-5225 systemd[1]: Starting user-runtime-dir@120.service - User Runtime Directory /run/user/120...
+2026-10-09T10:41:39.651714-03:00 curzas-alumno-5225 systemd[1]: Finished user-runtime-dir@120.service - User Runtime Directory /run/user/120.
+2026-10-09T10:41:39.661840-03:00 curzas-alumno-5225 systemd[1]: Starting user@120.service - User Manager for UID 120...
+2026-10-09T10:41:39.991153-03:00 curzas-alumno-5225 ModemManager[1309]: <msg> [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:03.0': not supported by any plugin
+2026-10-09T10:41:39.991364-03:00 curzas-alumno-5225 ModemManager[1309]: <msg> [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:08.0': not supported by any plugin
+2026-10-09T10:41:40.315592-03:00 curzas-alumno-5225 snapd[911]: snapmgr.go:1675: performing periodic snap downloads cache cleanup
+2026-10-09T10:41:40.383360-03:00 curzas-alumno-5225 snapd[911]: cache.go:320: removed 0 entries/    0 from downloads cache
+2026-10-09T10:41:41.262823-03:00 curzas-alumno-5225 snapd[911]: autorepair.go:320: WARNING: the system booted with an old initrd without unlocked status reporting
+2026-10-09T10:41:42.013062-03:00 curzas-alumno-5225 systemd[1]: Started cups.service - CUPS Scheduler.
+2026-10-09T10:41:42.014424-03:00 curzas-alumno-5225 kernel: kauditd_printk_skb: 57 callbacks suppressed
+2026-10-09T10:41:42.014431-03:00 curzas-alumno-5225 kernel: audit: type=1400 audit(1791553302.006:160): apparmor="DENIED" operation="capable" class="cap" profile="/usr/sbin/cupsd" pid=1420 comm="cupsd" capability=12  capname="net_admin"
+2026-10-09T10:41:42.019869-03:00 curzas-alumno-5225 systemd[1]: Started cups-browsed.service - Make remote CUPS printers available locally.
+2026-10-09T10:41:42.425467-03:00 curzas-alumno-5225 systemd[1]: samba-ad-dc.service: Skipped due to 'exec-condition'.
+2026-10-09T10:41:42.426161-03:00 curzas-alumno-5225 systemd[1]: Condition check resulted in samba-ad-dc.service - Samba AD Daemon being skipped.
+2026-10-09T10:41:43.858452-03:00 curzas-alumno-5225 systemd[1514]: Queued start job for default target default.target.
+2026-10-09T10:41:43.861908-03:00 curzas-alumno-5225 systemd[1514]: Created slice app.slice - User Application Slice.
+2026-10-09T10:41:43.862154-03:00 curzas-alumno-5225 systemd[1514]: Created slice session.slice - User Core Session Slice.
+2026-10-09T10:41:43.863323-03:00 curzas-alumno-5225 systemd[1514]: Started ubuntu-report.path - Pending report trigger for Ubuntu Report.
+2026-10-09T10:41:43.863399-03:00 curzas-alumno-5225 systemd[1514]: Started launchpadlib-cache-clean.timer - Clean up old files in the Launchpadlib cache.
+2026-10-09T10:41:43.863466-03:00 curzas-alumno-5225 systemd[1514]: Started snap.firmware-updater.firmware-notifier.timer - Timer firmware-notifier for snap application firmware-updater.firmware-notifier.
+2026-10-09T10:41:43.863781-03:00 curzas-alumno-5225 systemd[1514]: Reached target paths.target - Paths.
+2026-10-09T10:41:43.863851-03:00 curzas-alumno-5225 systemd[1514]: Reached target timers.target - Timers.
+2026-10-09T10:41:43.865377-03:00 curzas-alumno-5225 systemd[1514]: Starting dbus.socket - D-Bus User Message Bus Socket...
+2026-10-09T10:41:43.867694-03:00 curzas-alumno-5225 systemd[1514]: Listening on dirmngr.socket - GnuPG network certificate management daemon.
+2026-10-09T10:41:43.867967-03:00 curzas-alumno-5225 systemd[1514]: Listening on gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+2026-10-09T10:41:43.869577-03:00 curzas-alumno-5225 systemd[1514]: Listening on gnome-keyring-daemon.socket - GNOME Keyring daemon.
+2026-10-09T10:41:43.869628-03:00 curzas-alumno-5225 systemd[1514]: Listening on gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+2026-10-09T10:41:43.871353-03:00 curzas-alumno-5225 systemd[1514]: Listening on gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+2026-10-09T10:41:43.871434-03:00 curzas-alumno-5225 systemd[1514]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+2026-10-09T10:41:43.872925-03:00 curzas-alumno-5225 systemd[1514]: Listening on gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+2026-10-09T10:41:43.880476-03:00 curzas-alumno-5225 systemd[1514]: Listening on keyboxd.socket - GnuPG public key management service.
+2026-10-09T10:41:43.882486-03:00 curzas-alumno-5225 systemd[1514]: Listening on pipewire-pulse.socket - PipeWire PulseAudio.
+2026-10-09T10:41:43.882527-03:00 curzas-alumno-5225 systemd[1514]: Listening on pipewire.socket - PipeWire Multimedia System Sockets.
+2026-10-09T10:41:43.882552-03:00 curzas-alumno-5225 systemd[1514]: Listening on pk-debconf-helper.socket - debconf communication socket.
+2026-10-09T10:41:43.882584-03:00 curzas-alumno-5225 systemd[1514]: Listening on snapd.session-agent.socket - REST API socket for snapd user session agent.
+2026-10-09T10:41:43.882608-03:00 curzas-alumno-5225 systemd[1514]: Listening on speech-dispatcher.socket - Speech Dispatcher Socket.
+2026-10-09T10:41:43.895268-03:00 curzas-alumno-5225 systemd[1514]: Listening on dbus.socket - D-Bus User Message Bus Socket.
+2026-10-09T10:41:43.912060-03:00 curzas-alumno-5225 systemd[1514]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+2026-10-09T10:41:43.912240-03:00 curzas-alumno-5225 systemd[1514]: Reached target sockets.target - Sockets.
+2026-10-09T10:41:43.915547-03:00 curzas-alumno-5225 systemd[1514]: Reached target basic.target - Basic System.
+2026-10-09T10:41:43.916912-03:00 curzas-alumno-5225 systemd[1]: Started user@120.service - User Manager for UID 120.
+2026-10-09T10:41:43.916951-03:00 curzas-alumno-5225 systemd[1514]: gnome-initial-setup-copy-worker.service - GNOME Initial Setup Copy Worker was skipped because of an unmet condition check (ConditionUser=!@system).
+2026-10-09T10:41:43.916973-03:00 curzas-alumno-5225 systemd[1]: Started session-c1.scope - Session c1 of User gdm.
+2026-10-09T10:41:43.916992-03:00 curzas-alumno-5225 systemd[1514]: Started pipewire.service - PipeWire Multimedia Service.
+2026-10-09T10:41:43.931100-03:00 curzas-alumno-5225 systemd[1514]: Started filter-chain.service - PipeWire filter chain daemon.
+2026-10-09T10:41:43.932628-03:00 curzas-alumno-5225 systemd[1514]: Started snap.snapd-desktop-integration.snapd-desktop-integration.service - Service for snap application snapd-desktop-integration.snapd-desktop-integration.
+2026-10-09T10:41:43.938839-03:00 curzas-alumno-5225 systemd[1514]: Started wireplumber.service - Multimedia Service Session Manager.
+2026-10-09T10:41:43.939726-03:00 curzas-alumno-5225 systemd[1514]: Started pipewire-pulse.service - PipeWire PulseAudio.
+2026-10-09T10:41:43.939845-03:00 curzas-alumno-5225 systemd[1514]: Reached target default.target - Main User Target.
+2026-10-09T10:41:43.940211-03:00 curzas-alumno-5225 systemd[1514]: Startup finished in 4.135s.
+2026-10-09T10:41:44.069249-03:00 curzas-alumno-5225 systemd[1514]: Starting dbus.service - D-Bus User Message Bus...
+2026-10-09T10:41:44.606584-03:00 curzas-alumno-5225 dbus-daemon[1571]: [session uid=120 pid=1571] AppArmor D-Bus mediation is enabled
+2026-10-09T10:41:44.608739-03:00 curzas-alumno-5225 systemd[1514]: Started dbus.service - D-Bus User Message Bus.
+2026-10-09T10:41:44.614344-03:00 curzas-alumno-5225 dbus-daemon[885]: [system] Activating via systemd: service name='org.freedesktop.RealtimeKit1' unit='rtkit-daemon.service' requested by ':1.34' (uid=120 pid=1560 comm="/usr/bin/wireplumber" label="unconfined")
+2026-10-09T10:41:44.631532-03:00 curzas-alumno-5225 dbus-daemon[1571]: [session uid=120 pid=1571] Activating via systemd: service name='org.freedesktop.portal.Documents' unit='xdg-document-portal.service' requested by ':1.6' (uid=120 pid=1559 comm="/snap/snapd/current/usr/bin/snap run snapd-desktop" label="unconfined")
+2026-10-09T10:41:44.634799-03:00 curzas-alumno-5225 systemd[1]: Starting rtkit-daemon.service - RealtimeKit Scheduling Policy Service...
+2026-10-09T10:41:44.654298-03:00 curzas-alumno-5225 systemd[1514]: Starting xdg-document-portal.service - flatpak document portal service...
+2026-10-09T10:41:44.726149-03:00 curzas-alumno-5225 dbus-daemon[885]: [system] Successfully activated service 'org.freedesktop.RealtimeKit1'
+2026-10-09T10:41:44.726611-03:00 curzas-alumno-5225 systemd[1]: Started rtkit-daemon.service - RealtimeKit Scheduling Policy Service.
+2026-10-09T10:41:44.728895-03:00 curzas-alumno-5225 rtkit-daemon[1586]: Successfully called chroot.
+2026-10-09T10:41:44.730503-03:00 curzas-alumno-5225 rtkit-daemon[1586]: Successfully dropped privileges.
+2026-10-09T10:41:44.730603-03:00 curzas-alumno-5225 rtkit-daemon[1586]: Successfully limited resources.
+2026-10-09T10:41:44.730674-03:00 curzas-alumno-5225 rtkit-daemon[1586]: Running.
+2026-10-09T10:41:44.730756-03:00 curzas-alumno-5225 rtkit-daemon[1586]: Canary thread running.
+2026-10-09T10:41:44.730841-03:00 curzas-alumno-5225 rtkit-daemon[1586]: Watchdog thread running.
+2026-10-09T10:41:44.730975-03:00 curzas-alumno-5225 rtkit-daemon[1586]: Supervising 0 threads of 0 processes of 0 users.
+2026-10-09T10:41:44.733025-03:00 curzas-alumno-5225 rtkit-daemon[1586]: message repeated 11 times: [ Supervising 0 threads of 0 processes of 0 users.]
+2026-10-09T10:41:44.758933-03:00 curzas-alumno-5225 dbus-daemon[1571]: [session uid=120 pid=1571] Activating via systemd: service name='org.freedesktop.impl.portal.PermissionStore' unit='xdg-permission-store.service' requested by ':1.7' (uid=120 pid=1588 comm="/usr/libexec/xdg-document-portal" label="unconfined")
+2026-10-09T10:41:44.779133-03:00 curzas-alumno-5225 systemd[1514]: Starting xdg-permission-store.service - sandboxed app permission store...
+2026-10-09T10:41:44.816700-03:00 curzas-alumno-5225 dbus-daemon[1571]: [session uid=120 pid=1571] Successfully activated service 'org.freedesktop.impl.portal.PermissionStore'
+2026-10-09T10:41:44.817046-03:00 curzas-alumno-5225 systemd[1514]: Started xdg-permission-store.service - sandboxed app permission store.
+2026-10-09T10:41:44.818141-03:00 curzas-alumno-5225 dbus-daemon[1571]: [session uid=120 pid=1571] Successfully activated service 'org.freedesktop.portal.Documents'
+2026-10-09T10:41:44.818313-03:00 curzas-alumno-5225 systemd[1514]: Started xdg-document-portal.service - flatpak document portal service.
+2026-10-09T10:41:44.887770-03:00 curzas-alumno-5225 pipewire[1557]: mod.jackdbus-detect: Failed to receive jackdbus reply: org.freedesktop.DBus.Error.ServiceUnknown: The name org.jackaudio.service was not provided by any .service files
+2026-10-09T10:41:44.949962-03:00 curzas-alumno-5225 xdg-document-portal[1588]: Ignoring invalid max threads value 4294967295 > max (100000).
+2026-10-09T10:41:45.115769-03:00 curzas-alumno-5225 systemd[1]: tmp-snap\x2dprivate\x2dtmp-snap.rootfs_qEI7sw.mount: Deactivated successfully.
+2026-10-09T10:41:45.459731-03:00 curzas-alumno-5225 systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+2026-10-09T10:41:45.931264-03:00 curzas-alumno-5225 rtkit-daemon[1586]: Successfully made thread 1560 of process 1560 owned by '120' high priority at nice level -11.
+2026-10-09T10:41:45.933731-03:00 curzas-alumno-5225 rtkit-daemon[1586]: Supervising 1 threads of 1 processes of 1 users.
+2026-10-09T10:41:45.936140-03:00 curzas-alumno-5225 rtkit-daemon[1586]: Successfully made thread 1557 of process 1557 owned by '120' high priority at nice level -11.
+2026-10-09T10:41:45.936249-03:00 curzas-alumno-5225 rtkit-daemon[1586]: Supervising 2 threads of 2 processes of 1 users.
+2026-10-09T10:41:45.941978-03:00 curzas-alumno-5225 rtkit-daemon[1586]: Successfully made thread 1561 of process 1561 owned by '120' high priority at nice level -11.
+2026-10-09T10:41:45.942069-03:00 curzas-alumno-5225 rtkit-daemon[1586]: Supervising 3 threads of 3 processes of 1 users.
+2026-10-09T10:41:45.953321-03:00 curzas-alumno-5225 rtkit-daemon[1586]: Successfully made thread 1597 of process 1558 owned by '120' RT at priority 20.
+2026-10-09T10:41:45.953483-03:00 curzas-alumno-5225 rtkit-daemon[1586]: Supervising 4 threads of 4 processes of 1 users.
+2026-10-09T10:41:45.955901-03:00 curzas-alumno-5225 rtkit-daemon[1586]: Successfully made thread 1605 of process 1560 owned by '120' RT at priority 20.
+2026-10-09T10:41:45.956051-03:00 curzas-alumno-5225 rtkit-daemon[1586]: Supervising 5 threads of 4 processes of 1 users.
+2026-10-09T10:41:45.957593-03:00 curzas-alumno-5225 rtkit-daemon[1586]: Successfully made thread 1607 of process 1557 owned by '120' RT at priority 20.
+2026-10-09T10:41:45.957664-03:00 curzas-alumno-5225 rtkit-daemon[1586]: Supervising 6 threads of 4 processes of 1 users.
+2026-10-09T10:41:45.966473-03:00 curzas-alumno-5225 rtkit-daemon[1586]: Successfully made thread 1612 of process 1561 owned by '120' RT at priority 20.
+2026-10-09T10:41:45.966695-03:00 curzas-alumno-5225 rtkit-daemon[1586]: Supervising 7 threads of 4 processes of 1 users.
+2026-10-09T10:41:45.974036-03:00 curzas-alumno-5225 systemd[1]: dmesg.service: Deactivated successfully.
+2026-10-09T10:41:46.025435-03:00 curzas-alumno-5225 /usr/libexec/gdm-wayland-session[1589]: dbus-daemon[1589]: [session uid=120 pid=1589] Activating service name='org.freedesktop.systemd1' requested by ':1.2' (uid=120 pid=1592 comm="/usr/libexec/gnome-session-binary --autostart /usr" label="unconfined")
+2026-10-09T10:41:46.047080-03:00 curzas-alumno-5225 wireplumber[1560]: SPA handle 'api.libcamera.enum.manager' could not be loaded; is it installed?
+2026-10-09T10:41:46.048039-03:00 curzas-alumno-5225 wireplumber[1560]: PipeWire's libcamera SPA missing or broken. libcamera not supported.
+2026-10-09T10:41:46.050545-03:00 curzas-alumno-5225 /usr/libexec/gdm-wayland-session[1589]: dbus-daemon[1589]: [session uid=120 pid=1589] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+2026-10-09T10:41:46.051714-03:00 curzas-alumno-5225 gnome-session[1592]: gnome-session-binary[1592]: WARNING: Could not check if unit gnome-session-wayland@gnome-login.target is active: Error al llamar StartSereviceByName para org.freedesktop.systemd1: Process org.freedesktop.systemd1 exited with status 1
+2026-10-09T10:41:46.052050-03:00 curzas-alumno-5225 gnome-session-binary[1592]: WARNING: Could not check if unit gnome-session-wayland@gnome-login.target is active: Error al llamar StartSereviceByName para org.freedesktop.systemd1: Process org.freedesktop.systemd1 exited with status 1
+2026-10-09T10:41:46.516318-03:00 curzas-alumno-5225 snapd-desktop-integration.snapd-desktop-integration[1559]: Sorry, home directories outside of /home needs configuration.
+2026-10-09T10:41:46.517075-03:00 curzas-alumno-5225 snapd-desktop-integration.snapd-desktop-integration[1559]: See https://snapcraft.io/docs/home-outside-home for details.
+2026-10-09T10:41:46.687997-03:00 curzas-alumno-5225 wireplumber[1560]: Failed to get percentage from UPower: org.freedesktop.DBus.Error.NameHasNoOwner
+2026-10-09T10:41:46.693077-03:00 curzas-alumno-5225 wireplumber[1560]: BlueZ system service is not available
+2026-10-09T10:41:47.101629-03:00 curzas-alumno-5225 wireplumber[1560]: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+2026-10-09T10:41:47.102566-03:00 curzas-alumno-5225 wireplumber[1560]: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+2026-10-09T10:41:47.102738-03:00 curzas-alumno-5225 wireplumber[1560]: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+2026-10-09T10:41:47.103052-03:00 curzas-alumno-5225 wireplumber[1560]: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+2026-10-09T10:41:47.103128-03:00 curzas-alumno-5225 wireplumber[1560]: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+2026-10-09T10:41:47.103196-03:00 curzas-alumno-5225 wireplumber[1560]: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+2026-10-09T10:41:47.104399-03:00 curzas-alumno-5225 wireplumber[1560]: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+2026-10-09T10:41:47.104481-03:00 curzas-alumno-5225 wireplumber[1560]: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+2026-10-09T10:41:47.104544-03:00 curzas-alumno-5225 wireplumber[1560]: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+2026-10-09T10:41:47.104592-03:00 curzas-alumno-5225 wireplumber[1560]: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+2026-10-09T10:41:47.286319-03:00 curzas-alumno-5225 gnome-shell[1642]: Running GNOME Shell (using mutter 46.2) as a Wayland display server
+2026-10-09T10:41:48.899845-03:00 curzas-alumno-5225 rtkit-daemon[1586]: Supervising 7 threads of 4 processes of 1 users.
+2026-10-09T10:41:48.900985-03:00 curzas-alumno-5225 rtkit-daemon[1586]: Supervising 7 threads of 4 processes of 1 users.
+2026-10-09T10:41:48.903286-03:00 curzas-alumno-5225 rtkit-daemon[1586]: Successfully made thread 1663 of process 1642 owned by '120' RT at priority 20.
+2026-10-09T10:41:48.903327-03:00 curzas-alumno-5225 rtkit-daemon[1586]: Supervising 8 threads of 5 processes of 1 users.
+2026-10-09T10:41:48.903606-03:00 curzas-alumno-5225 gnome-shell[1642]: Made thread 'KMS thread' realtime scheduled
+2026-10-09T10:41:48.995999-03:00 curzas-alumno-5225 org.gnome.Shell.desktop[1642]: VMware: No 3D enabled (0, Conseguido).
+2026-10-09T10:41:49.062589-03:00 curzas-alumno-5225 org.gnome.Shell.desktop[1642]: message repeated 2 times: [ VMware: No 3D enabled (0, Conseguido).]
+2026-10-09T10:41:49.062692-03:00 curzas-alumno-5225 org.gnome.Shell.desktop[1642]: libEGL warning: egl: failed to create dri2 screen
+2026-10-09T10:41:49.065186-03:00 curzas-alumno-5225 org.gnome.Shell.desktop[1642]: VMware: No 3D enabled (0, Conseguido).
+2026-10-09T10:41:49.065282-03:00 curzas-alumno-5225 org.gnome.Shell.desktop[1642]: libEGL warning: egl: failed to create dri2 screen
+2026-10-09T10:41:49.067592-03:00 curzas-alumno-5225 org.gnome.Shell.desktop[1642]: VMware: No 3D enabled (0, Conseguido).
+2026-10-09T10:41:49.067661-03:00 curzas-alumno-5225 org.gnome.Shell.desktop[1642]: libEGL warning: egl: failed to create dri2 screen
+2026-10-09T10:41:49.069840-03:00 curzas-alumno-5225 gnome-shell[1642]: Added device '/dev/dri/card0' (vmwgfx) using atomic mode setting.
+2026-10-09T10:41:49.071206-03:00 curzas-alumno-5225 gnome-shell[1642]: Failed to initialize accelerated iGPU/dGPU framebuffer sharing: Not hardware accelerated
+2026-10-09T10:41:49.071296-03:00 curzas-alumno-5225 gnome-shell[1642]: Created gbm renderer for '/dev/dri/card0'
+2026-10-09T10:41:49.071381-03:00 curzas-alumno-5225 gnome-shell[1642]: Boot VGA GPU /dev/dri/card0 selected as primary
+2026-10-09T10:41:49.312386-03:00 curzas-alumno-5225 /usr/libexec/gdm-wayland-session[1589]: dbus-daemon[1589]: [session uid=120 pid=1589] Activating service name='org.a11y.Bus' requested by ':1.4' (uid=120 pid=1642 comm="/usr/bin/gnome-shell" label="unconfined")
+2026-10-09T10:41:49.328393-03:00 curzas-alumno-5225 /usr/libexec/gdm-wayland-session[1589]: dbus-daemon[1589]: [session uid=120 pid=1589] Successfully activated service 'org.a11y.Bus'
+2026-10-09T10:41:49.354654-03:00 curzas-alumno-5225 gnome-shell[1642]: Using public X11 display :1024, (using :1025 for managed services)
+2026-10-09T10:41:49.355050-03:00 curzas-alumno-5225 gnome-shell[1642]: Using Wayland display name 'wayland-0'
+2026-10-09T10:41:49.480672-03:00 curzas-alumno-5225 org.gnome.Shell.desktop[1675]: VMware: No 3D enabled (0, Success).
+2026-10-09T10:41:49.485018-03:00 curzas-alumno-5225 org.gnome.Shell.desktop[1675]: libEGL warning: egl: failed to create dri2 screen
+2026-10-09T10:41:49.486875-03:00 curzas-alumno-5225 org.gnome.Shell.desktop[1675]: VMware: No 3D enabled (0, Success).
+2026-10-09T10:41:49.487477-03:00 curzas-alumno-5225 org.gnome.Shell.desktop[1675]: libEGL warning: egl: failed to create dri2 screen
+2026-10-09T10:41:49.489569-03:00 curzas-alumno-5225 org.gnome.Shell.desktop[1675]: VMware: No 3D enabled (0, Success).
+2026-10-09T10:41:49.491856-03:00 curzas-alumno-5225 org.gnome.Shell.desktop[1675]: libEGL warning: egl: failed to create dri2 screen
+2026-10-09T10:41:49.937519-03:00 curzas-alumno-5225 /usr/libexec/gdm-wayland-session[1674]: dbus-daemon[1674]: Activating service name='org.a11y.atspi.Registry' requested by ':1.0' (uid=120 pid=1642 comm="/usr/bin/gnome-shell" label="unconfined")
+2026-10-09T10:41:49.991700-03:00 curzas-alumno-5225 /usr/libexec/gdm-wayland-session[1674]: dbus-daemon[1674]: Successfully activated service 'org.a11y.atspi.Registry'
+2026-10-09T10:41:49.992211-03:00 curzas-alumno-5225 /usr/libexec/gdm-wayland-session[1677]: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+2026-10-09T10:41:50.830458-03:00 curzas-alumno-5225 gnome-shell[1642]: Unset XDG_SESSION_ID, getCurrentSessionProxy() called outside a user session. Asking logind directly.
+2026-10-09T10:41:50.831009-03:00 curzas-alumno-5225 gnome-shell[1642]: Will monitor session c1
+2026-10-09T10:41:50.846558-03:00 curzas-alumno-5225 dbus-daemon[885]: [system] Activating via systemd: service name='org.freedesktop.locale1' unit='dbus-org.freedesktop.locale1.service' requested by ':1.45' (uid=120 pid=1642 comm="/usr/bin/gnome-shell" label="unconfined")
+2026-10-09T10:41:50.892658-03:00 curzas-alumno-5225 systemd[1]: Starting systemd-localed.service - Locale Service...
+2026-10-09T10:41:50.988723-03:00 curzas-alumno-5225 dbus-daemon[885]: [system] Successfully activated service 'org.freedesktop.locale1'
+2026-10-09T10:41:50.991319-03:00 curzas-alumno-5225 systemd[1]: Started systemd-localed.service - Locale Service.
+2026-10-09T10:41:51.052234-03:00 curzas-alumno-5225 /usr/libexec/gdm-wayland-session[1589]: dbus-daemon[1589]: [session uid=120 pid=1589] Activating service name='org.gnome.Shell.Screencast' requested by ':1.3' (uid=120 pid=1642 comm="/usr/bin/gnome-shell" label="unconfined")
+2026-10-09T10:41:51.185837-03:00 curzas-alumno-5225 /usr/libexec/gdm-wayland-session[1589]: dbus-daemon[1589]: [session uid=120 pid=1589] Activating service name='org.freedesktop.impl.portal.PermissionStore' requested by ':1.3' (uid=120 pid=1642 comm="/usr/bin/gnome-shell" label="unconfined")
+2026-10-09T10:41:51.203458-03:00 curzas-alumno-5225 /usr/libexec/gdm-wayland-session[1589]: dbus-daemon[1589]: [session uid=120 pid=1589] Successfully activated service 'org.freedesktop.impl.portal.PermissionStore'
+2026-10-09T10:41:51.259951-03:00 curzas-alumno-5225 dbus-daemon[885]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.45' (uid=120 pid=1642 comm="/usr/bin/gnome-shell" label="unconfined")
+2026-10-09T10:41:51.262649-03:00 curzas-alumno-5225 dbus-daemon[885]: [system] Activating via systemd: service name='org.freedesktop.UPower' unit='upower.service' requested by ':1.45' (uid=120 pid=1642 comm="/usr/bin/gnome-shell" label="unconfined")
+2026-10-09T10:41:51.264586-03:00 curzas-alumno-5225 /usr/libexec/gdm-wayland-session[1589]: dbus-daemon[1589]: [session uid=120 pid=1589] Activating service name='org.gnome.Shell.Notifications' requested by ':1.3' (uid=120 pid=1642 comm="/usr/bin/gnome-shell" label="unconfined")
+2026-10-09T10:41:51.325384-03:00 curzas-alumno-5225 systemd[1]: Starting packagekit.service - PackageKit Daemon...
+2026-10-09T10:41:51.341768-03:00 curzas-alumno-5225 systemd[1]: Starting upower.service - Daemon for power management...
+2026-10-09T10:41:51.376377-03:00 curzas-alumno-5225 /usr/libexec/gdm-wayland-session[1589]: dbus-daemon[1589]: [session uid=120 pid=1589] Successfully activated service 'org.gnome.Shell.Notifications'
+2026-10-09T10:41:51.493396-03:00 curzas-alumno-5225 gnome-shell[1642]: Extension ding@rastersoft.com already installed in /usr/share/gnome-shell/extensions/ding@rastersoft.com. /usr/share/gnome-shell/extensions/ding@rastersoft.com will not be loaded
+2026-10-09T10:41:51.494041-03:00 curzas-alumno-5225 gnome-shell[1642]: Extension tiling-assistant@ubuntu.com already installed in /usr/share/gnome-shell/extensions/tiling-assistant@ubuntu.com. /usr/share/gnome-shell/extensions/tiling-assistant@ubuntu.com will not be loaded
+2026-10-09T10:41:51.494110-03:00 curzas-alumno-5225 gnome-shell[1642]: Extension ubuntu-appindicators@ubuntu.com already installed in /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com. /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com will not be loaded
+2026-10-09T10:41:51.494170-03:00 curzas-alumno-5225 gnome-shell[1642]: Extension ubuntu-dock@ubuntu.com already installed in /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com. /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com will not be loaded
+2026-10-09T10:41:51.497141-03:00 curzas-alumno-5225 org.gnome.Shell.desktop[1642]: Window manager warning: Failed to parse saved session file: Falló al abrir el archivo «/var/lib/gdm3/.config/mutter/sessions/10e6dd80432de0e231179155330626027300000015920000.ms»: No existe el archivo o el directorio
+2026-10-09T10:41:51.535740-03:00 curzas-alumno-5225 PackageKit: daemon start
+2026-10-09T10:41:51.779311-03:00 curzas-alumno-5225 kernel: rfkill: input handler disabled
+2026-10-09T10:41:51.845662-03:00 curzas-alumno-5225 /usr/libexec/gdm-wayland-session[1589]: dbus-daemon[1589]: [session uid=120 pid=1589] Activating service name='org.freedesktop.systemd1' requested by ':1.13' (uid=120 pid=1710 comm="/usr/libexec/gsd-sharing" label="unconfined")
+2026-10-09T10:41:51.854593-03:00 curzas-alumno-5225 /usr/libexec/gdm-wayland-session[1589]: dbus-daemon[1589]: [session uid=120 pid=1589] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+2026-10-09T10:41:51.855014-03:00 curzas-alumno-5225 gsd-sharing[1710]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+2026-10-09T10:41:51.855152-03:00 curzas-alumno-5225 gsd-sharing[1710]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+2026-10-09T10:41:51.894866-03:00 curzas-alumno-5225 gnome-shell[1642]: Error looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation
+2026-10-09T10:41:51.912760-03:00 curzas-alumno-5225 NetworkManager[1221]: <info>  [1791553311.9125] agent-manager: agent[842a263bed8da001,:1.45/org.gnome.Shell.NetworkAgent/120]: agent registered
+2026-10-09T10:41:52.363292-03:00 curzas-alumno-5225 org.gnome.Shell.desktop[1675]: Failed to initialize glamor, falling back to sw
+2026-10-09T10:41:52.523168-03:00 curzas-alumno-5225 dbus-daemon[885]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+2026-10-09T10:41:52.524926-03:00 curzas-alumno-5225 systemd[1]: Started packagekit.service - PackageKit Daemon.
+2026-10-09T10:41:52.608337-03:00 curzas-alumno-5225 org.gnome.Shell.desktop[1675]: VMware: No 3D enabled (0, Success).
+2026-10-09T10:41:52.612350-03:00 curzas-alumno-5225 org.gnome.Shell.desktop[1675]: VMware: No 3D enabled (0, Success).
+2026-10-09T10:41:52.790472-03:00 curzas-alumno-5225 /usr/libexec/gdm-wayland-session[1589]: dbus-daemon[1589]: [session uid=120 pid=1589] Activating service name='org.freedesktop.portal.IBus' requested by ':1.26' (uid=120 pid=1788 comm="ibus-daemon --panel disable" label="unconfined")
+2026-10-09T10:41:52.806188-03:00 curzas-alumno-5225 dbus-daemon[885]: [system] Successfully activated service 'org.freedesktop.UPower'
+2026-10-09T10:41:52.806252-03:00 curzas-alumno-5225 systemd[1]: Started upower.service - Daemon for power management.
+2026-10-09T10:41:52.871660-03:00 curzas-alumno-5225 /usr/libexec/gdm-wayland-session[1589]: dbus-daemon[1589]: [session uid=120 pid=1589] Successfully activated service 'org.freedesktop.portal.IBus'
+2026-10-09T10:41:52.994734-03:00 curzas-alumno-5225 org.gnome.Shell.desktop[1904]: The XKEYBOARD keymap compiler (xkbcomp) reports:
+2026-10-09T10:41:52.996140-03:00 curzas-alumno-5225 org.gnome.Shell.desktop[1904]: > Warning:          Could not resolve keysym XF86CameraAccessEnable
+2026-10-09T10:41:52.996222-03:00 curzas-alumno-5225 org.gnome.Shell.desktop[1904]: > Warning:          Could not resolve keysym XF86CameraAccessDisable
+2026-10-09T10:41:52.996255-03:00 curzas-alumno-5225 org.gnome.Shell.desktop[1904]: > Warning:          Could not resolve keysym XF86CameraAccessToggle
+2026-10-09T10:41:52.996293-03:00 curzas-alumno-5225 org.gnome.Shell.desktop[1904]: > Warning:          Could not resolve keysym XF86NextElement
+2026-10-09T10:41:52.996328-03:00 curzas-alumno-5225 org.gnome.Shell.desktop[1904]: > Warning:          Could not resolve keysym XF86PreviousElement
+2026-10-09T10:41:52.996370-03:00 curzas-alumno-5225 org.gnome.Shell.desktop[1904]: > Warning:          Could not resolve keysym XF86AutopilotEngageToggle
+2026-10-09T10:41:52.996403-03:00 curzas-alumno-5225 org.gnome.Shell.desktop[1904]: > Warning:          Could not resolve keysym XF86MarkWaypoint
+2026-10-09T10:41:52.996449-03:00 curzas-alumno-5225 org.gnome.Shell.desktop[1904]: > Warning:          Could not resolve keysym XF86Sos
+2026-10-09T10:41:52.996496-03:00 curzas-alumno-5225 org.gnome.Shell.desktop[1904]: > Warning:          Could not resolve keysym XF86NavChart
+2026-10-09T10:41:52.996528-03:00 curzas-alumno-5225 org.gnome.Shell.desktop[1904]: > Warning:          Could not resolve keysym XF86FishingChart
+2026-10-09T10:41:52.996564-03:00 curzas-alumno-5225 org.gnome.Shell.desktop[1904]: > Warning:          Could not resolve keysym XF86SingleRangeRadar
+2026-10-09T10:41:52.996604-03:00 curzas-alumno-5225 org.gnome.Shell.desktop[1904]: > Warning:          Could not resolve keysym XF86DualRangeRadar
+2026-10-09T10:41:52.996638-03:00 curzas-alumno-5225 org.gnome.Shell.desktop[1904]: > Warning:          Could not resolve keysym XF86RadarOverlay
+2026-10-09T10:41:52.996664-03:00 curzas-alumno-5225 org.gnome.Shell.desktop[1904]: > Warning:          Could not resolve keysym XF86TraditionalSonar
+2026-10-09T10:41:52.996697-03:00 curzas-alumno-5225 org.gnome.Shell.desktop[1904]: > Warning:          Could not resolve keysym XF86ClearvuSonar
+2026-10-09T10:41:52.996729-03:00 curzas-alumno-5225 org.gnome.Shell.desktop[1904]: > Warning:          Could not resolve keysym XF86SidevuSonar
+2026-10-09T10:41:52.998521-03:00 curzas-alumno-5225 org.gnome.Shell.desktop[1904]: > Warning:          Could not resolve keysym XF86NavInfo
+2026-10-09T10:41:52.998567-03:00 curzas-alumno-5225 org.gnome.Shell.desktop[1904]: Errors from xkbcomp are not fatal to the X server
+2026-10-09T10:41:53.218499-03:00 curzas-alumno-5225 gnome-shell[1642]: Registering session with GDM
+2026-10-09T10:41:53.256056-03:00 curzas-alumno-5225 systemd[1]: Finished plymouth-quit-wait.service - Hold until boot process finishes up.
+2026-10-09T10:41:53.258136-03:00 curzas-alumno-5225 systemd[1]: Reached target multi-user.target - Multi-User System.
+2026-10-09T10:41:53.259499-03:00 curzas-alumno-5225 systemd[1]: Reached target graphical.target - Graphical Interface.
+2026-10-09T10:41:53.263421-03:00 curzas-alumno-5225 systemd[1]: Starting setvtrgb.service - Set console scheme...
+2026-10-09T10:41:53.274493-03:00 curzas-alumno-5225 systemd[1]: Starting systemd-update-utmp-runlevel.service - Record Runlevel Change in UTMP...
+2026-10-09T10:41:53.292292-03:00 curzas-alumno-5225 dbus-daemon[885]: [system] Activating via systemd: service name='net.reactivated.Fprint' unit='fprintd.service' requested by ':1.45' (uid=120 pid=1642 comm="/usr/bin/gnome-shell" label="unconfined")
+2026-10-09T10:41:53.331336-03:00 curzas-alumno-5225 systemd[1]: Starting fprintd.service - Fingerprint Authentication Daemon...
+2026-10-09T10:41:53.342361-03:00 curzas-alumno-5225 systemd[1]: Finished setvtrgb.service - Set console scheme.
+2026-10-09T10:41:53.342420-03:00 curzas-alumno-5225 systemd[1]: systemd-update-utmp-runlevel.service: Deactivated successfully.
+2026-10-09T10:41:53.342443-03:00 curzas-alumno-5225 systemd[1]: Finished systemd-update-utmp-runlevel.service - Record Runlevel Change in UTMP.
+2026-10-09T10:41:53.361798-03:00 curzas-alumno-5225 systemd[1]: Created slice system-getty.slice - Slice /system/getty.
+2026-10-09T10:41:53.540105-03:00 curzas-alumno-5225 dbus-daemon[885]: [system] Successfully activated service 'net.reactivated.Fprint'
+2026-10-09T10:41:53.541500-03:00 curzas-alumno-5225 systemd[1]: Started fprintd.service - Fingerprint Authentication Daemon.
+2026-10-09T10:41:53.541540-03:00 curzas-alumno-5225 systemd[1]: Startup finished in 4.134s (kernel) + 39.611s (userspace) = 43.745s.
+2026-10-09T10:41:53.696730-03:00 curzas-alumno-5225 dbus-daemon[885]: [system] Activating via systemd: service name='org.freedesktop.GeoClue2' unit='geoclue.service' requested by ':1.45' (uid=120 pid=1642 comm="/usr/bin/gnome-shell" label="unconfined")
+2026-10-09T10:41:53.712759-03:00 curzas-alumno-5225 systemd[1]: Starting geoclue.service - Location Lookup Service...
+2026-10-09T10:41:53.928646-03:00 curzas-alumno-5225 org.gnome.Shell.desktop[1942]: The XKEYBOARD keymap compiler (xkbcomp) reports:
+2026-10-09T10:41:53.928791-03:00 curzas-alumno-5225 org.gnome.Shell.desktop[1942]: > Warning:          Unsupported maximum keycode 708, clipping.
+2026-10-09T10:41:53.928839-03:00 curzas-alumno-5225 org.gnome.Shell.desktop[1942]: >                   X11 cannot support keycodes above 255.
+2026-10-09T10:41:53.928891-03:00 curzas-alumno-5225 org.gnome.Shell.desktop[1942]: > Warning:          Could not resolve keysym XF86CameraAccessEnable
+2026-10-09T10:41:53.928932-03:00 curzas-alumno-5225 org.gnome.Shell.desktop[1942]: > Warning:          Could not resolve keysym XF86CameraAccessDisable
+2026-10-09T10:41:53.928966-03:00 curzas-alumno-5225 org.gnome.Shell.desktop[1942]: > Warning:          Could not resolve keysym XF86CameraAccessToggle
+2026-10-09T10:41:53.929000-03:00 curzas-alumno-5225 org.gnome.Shell.desktop[1942]: > Warning:          Could not resolve keysym XF86NextElement
+2026-10-09T10:41:53.929050-03:00 curzas-alumno-5225 org.gnome.Shell.desktop[1942]: > Warning:          Could not resolve keysym XF86PreviousElement
+2026-10-09T10:41:53.929101-03:00 curzas-alumno-5225 org.gnome.Shell.desktop[1942]: > Warning:          Could not resolve keysym XF86AutopilotEngageToggle
+2026-10-09T10:41:53.929138-03:00 curzas-alumno-5225 org.gnome.Shell.desktop[1942]: > Warning:          Could not resolve keysym XF86MarkWaypoint
+2026-10-09T10:41:53.929173-03:00 curzas-alumno-5225 org.gnome.Shell.desktop[1942]: > Warning:          Could not resolve keysym XF86Sos
+2026-10-09T10:41:53.929207-03:00 curzas-alumno-5225 org.gnome.Shell.desktop[1942]: > Warning:          Could not resolve keysym XF86NavChart
+2026-10-09T10:41:53.929240-03:00 curzas-alumno-5225 org.gnome.Shell.desktop[1942]: > Warning:          Could not resolve keysym XF86FishingChart
+2026-10-09T10:41:53.929273-03:00 curzas-alumno-5225 org.gnome.Shell.desktop[1942]: > Warning:          Could not resolve keysym XF86SingleRangeRadar
+2026-10-09T10:41:53.929306-03:00 curzas-alumno-5225 org.gnome.Shell.desktop[1942]: > Warning:          Could not resolve keysym XF86DualRangeRadar
+2026-10-09T10:41:53.929339-03:00 curzas-alumno-5225 org.gnome.Shell.desktop[1942]: > Warning:          Could not resolve keysym XF86RadarOverlay
+2026-10-09T10:41:53.929377-03:00 curzas-alumno-5225 org.gnome.Shell.desktop[1942]: > Warning:          Could not resolve keysym XF86TraditionalSonar
+2026-10-09T10:41:53.929414-03:00 curzas-alumno-5225 org.gnome.Shell.desktop[1942]: > Warning:          Could not resolve keysym XF86ClearvuSonar
+2026-10-09T10:41:53.929448-03:00 curzas-alumno-5225 org.gnome.Shell.desktop[1942]: > Warning:          Could not resolve keysym XF86SidevuSonar
+2026-10-09T10:41:53.929490-03:00 curzas-alumno-5225 org.gnome.Shell.desktop[1942]: > Warning:          Could not resolve keysym XF86NavInfo
+2026-10-09T10:41:53.932135-03:00 curzas-alumno-5225 org.gnome.Shell.desktop[1942]: Errors from xkbcomp are not fatal to the X server
+2026-10-09T10:41:53.965689-03:00 curzas-alumno-5225 dbus-daemon[885]: [system] Successfully activated service 'org.freedesktop.GeoClue2'
+2026-10-09T10:41:53.965978-03:00 curzas-alumno-5225 systemd[1]: Started geoclue.service - Location Lookup Service.
+2026-10-09T10:41:54.041341-03:00 curzas-alumno-5225 org.gnome.Shell.desktop[1933]: libEGL warning: DRI3 error: Could not get DRI3 device
+2026-10-09T10:41:54.042743-03:00 curzas-alumno-5225 org.gnome.Shell.desktop[1933]: libEGL warning: Ensure your X server supports DRI3 to get accelerated rendering
+2026-10-09T10:41:54.104439-03:00 curzas-alumno-5225 /usr/libexec/gdm-wayland-session[1589]: dbus-daemon[1589]: [session uid=120 pid=1589] Activating service name='org.freedesktop.portal.IBus' requested by ':1.28' (uid=120 pid=1939 comm="ibus-daemon --panel disable -r --xim" label="unconfined")
+2026-10-09T10:41:54.151703-03:00 curzas-alumno-5225 /usr/libexec/gdm-wayland-session[1589]: dbus-daemon[1589]: [session uid=120 pid=1589] Successfully activated service 'org.freedesktop.portal.IBus'
+2026-10-09T10:41:54.510244-03:00 curzas-alumno-5225 rtkit-daemon[1586]: Successfully made thread 1663 of process 1642 owned by '120' high priority at nice level 0.
+2026-10-09T10:41:54.513450-03:00 curzas-alumno-5225 rtkit-daemon[1586]: Supervising 8 threads of 5 processes of 1 users.
+2026-10-09T10:41:54.518754-03:00 curzas-alumno-5225 rtkit-daemon[1586]: Supervising 7 threads of 4 processes of 1 users.
+2026-10-09T10:41:54.519505-03:00 curzas-alumno-5225 rtkit-daemon[1586]: Supervising 7 threads of 4 processes of 1 users.
+2026-10-09T10:41:54.522780-03:00 curzas-alumno-5225 rtkit-daemon[1586]: Successfully made thread 1663 of process 1642 owned by '120' RT at priority 20.
+2026-10-09T10:41:54.522848-03:00 curzas-alumno-5225 rtkit-daemon[1586]: Supervising 8 threads of 5 processes of 1 users.
+2026-10-09T10:41:54.535103-03:00 curzas-alumno-5225 /usr/libexec/gdm-wayland-session[1589]: dbus-daemon[1589]: [session uid=120 pid=1589] Successfully activated service 'org.gnome.Shell.Screencast'
+2026-10-09T10:41:55.113137-03:00 curzas-alumno-5225 gsd-media-keys[1733]: Failed to grab accelerator for keybinding settings:playback-repeat
+2026-10-09T10:41:55.113446-03:00 curzas-alumno-5225 gsd-media-keys[1733]: Failed to grab accelerator for keybinding settings:hibernate
+2026-10-09T10:41:55.120707-03:00 curzas-alumno-5225 /usr/libexec/gdm-wayland-session[1589]: dbus-daemon[1589]: [session uid=120 pid=1589] Activating service name='org.gnome.ScreenSaver' requested by ':1.22' (uid=120 pid=1755 comm="/usr/libexec/gsd-power" label="unconfined")
+2026-10-09T10:41:55.142283-03:00 curzas-alumno-5225 spice-vdagent[1987]: vdagent virtio channel /dev/virtio-ports/com.redhat.spice.0 does not exist, exiting
+2026-10-09T10:41:55.146430-03:00 curzas-alumno-5225 gnome-session-binary[1592]: Entering running state
+2026-10-09T10:41:55.195823-03:00 curzas-alumno-5225 /usr/libexec/gdm-wayland-session[1589]: dbus-daemon[1589]: [session uid=120 pid=1589] Successfully activated service 'org.gnome.ScreenSaver'
+2026-10-09T10:41:55.208717-03:00 curzas-alumno-5225 xbrlapi.desktop[1996]: openConnection: connect: No existe el archivo o el directorio
+2026-10-09T10:41:55.208851-03:00 curzas-alumno-5225 xbrlapi.desktop[1996]: cannot connect to braille devices daemon brltty at :0
+2026-10-09T10:42:06.086286-03:00 curzas-alumno-5225 systemd-timesyncd[820]: Timed out waiting for reply from 91.189.91.157:123 (ntp.ubuntu.com).
+2026-10-09T10:42:06.329052-03:00 curzas-alumno-5225 systemd-timesyncd[820]: Contacted time server 185.125.190.58:123 (ntp.ubuntu.com).
+2026-10-09T10:42:06.329832-03:00 curzas-alumno-5225 systemd-timesyncd[820]: Initial clock synchronization to Fri 2026-10-09 10:42:06.114795 -03.
+2026-10-09T10:42:12.029159-03:00 curzas-alumno-5225 systemd[1]: Starting monitoreo_5225.service - Monitoreo de red TP3 - ping al gateway (Legajo 5225)...
+2026-10-09T10:42:12.029275-03:00 curzas-alumno-5225 systemd[1]: systemd-timedated.service: Deactivated successfully.
+2026-10-09T10:42:15.267060-03:00 curzas-alumno-5225 diagnostico_red.sh[2028]: 2026-10-09 10:42:12 | gateway 192.168.30.1 | ESTADO: OK | pérdida: 0% | promedio: 0.548 ms
+2026-10-09T10:42:15.274561-03:00 curzas-alumno-5225 kernel: systemd-journald[234]: /var/log/journal/84ee687aa41e4deba11de620cb18d889/user-1000.journal: Journal file uses a different sequence number ID, rotating.
+2026-10-09T10:42:15.349475-03:00 curzas-alumno-5225 systemd[1]: monitoreo_5225.service: Deactivated successfully.
+2026-10-09T10:42:15.349529-03:00 curzas-alumno-5225 systemd[1]: Finished monitoreo_5225.service - Monitoreo de red TP3 - ping al gateway (Legajo 5225).
+2026-10-09T10:42:23.805443-03:00 curzas-alumno-5225 systemd[1]: fprintd.service: Deactivated successfully.
+2026-10-09T10:42:25.099457-03:00 curzas-alumno-5225 systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+2026-10-09T10:42:25.103636-03:00 curzas-alumno-5225 systemd[1]: systemd-localed.service: Deactivated successfully.
+2026-10-09T10:42:53.797857-03:00 curzas-alumno-5225 geoclue[1932]: Service not used for 60 seconds. Shutting down..
+2026-10-09T10:42:53.811492-03:00 curzas-alumno-5225 systemd[1]: geoclue.service: Deactivated successfully.
+2026-10-09T10:44:54.088468-03:00 curzas-alumno-5225 gnome-shell[1642]: Gio.DBusError: GDBus.Error:org.freedesktop.DBus.Error.Failed: Set global engine failed: Se canceló la operación#012#012Stack trace:#012  _promisify/proto[asyncFunc]/</<@resource:///org/gnome/gjs/modules/core/overrides/Gio.js:453:45#012  @resource:///org/gnome/shell/ui/init.js:21:20#012  ### Promise created here: ####012  _setEngine@resource:///org/gnome/shell/misc/ibusManager.js:291:30#012  setEngine@resource:///org/gnome/shell/misc/ibusManager.js:314:24#012  activateInputSource@resource:///org/gnome/shell/ui/status/keyboard.js:527:31#012  _callHandlers@resource:///org/gnome/gjs/modules/core/_signals.js:130:42#012  _emit@resource:///org/gnome/gjs/modules/core/_signals.js:119:10#012  activate@resource:///org/gnome/shell/ui/status/keyboard.js:68:14#012  _inputSourcesChanged@resource:///org/gnome/shell/ui/status/keyboard.js:661:33#012  reload@resource:///org/gnome/shell/ui/status/keyboard.js:396:14#012  _ibusSetContentType@resource:///org/gnome/shell/ui/status/keyboard.js:736:14#012  _callHandlers@resource:///org/gnome/gjs/modules/core/_signals.js:130:42#012  _emit@resource:///org/gnome/gjs/modules/core/_signals.js:119:10#012  _setContentType@resource:///org/gnome/shell/misc/ibusManager.js:266:14#012  @resource:///org/gnome/shell/ui/init.js:21:20#012  
+2026-10-09T10:44:54.090462-03:00 curzas-alumno-5225 gnome-shell[1642]: Gio.DBusError: GDBus.Error:org.freedesktop.DBus.Error.Failed: Set global engine failed: Se canceló la operación#012#012Stack trace:#012  _promisify/proto[asyncFunc]/</<@resource:///org/gnome/gjs/modules/core/overrides/Gio.js:453:45#012  @resource:///org/gnome/shell/ui/init.js:21:20#012  ### Promise created here: ####012  _setEngine@resource:///org/gnome/shell/misc/ibusManager.js:291:30#012  setEngine@resource:///org/gnome/shell/misc/ibusManager.js:314:24#012  activateInputSource@resource:///org/gnome/shell/ui/status/keyboard.js:527:31#012  _callHandlers@resource:///org/gnome/gjs/modules/core/_signals.js:130:42#012  _emit@resource:///org/gnome/gjs/modules/core/_signals.js:119:10#012  activate@resource:///org/gnome/shell/ui/status/keyboard.js:68:14#012  _inputSourcesChanged@resource:///org/gnome/shell/ui/status/keyboard.js:661:33#012  reload@resource:///org/gnome/shell/ui/status/keyboard.js:396:14#012  _ibusSetContentType@resource:///org/gnome/shell/ui/status/keyboard.js:736:14#012  _callHandlers@resource:///org/gnome/gjs/modules/core/_signals.js:130:42#012  _emit@resource:///org/gnome/gjs/modules/core/_signals.js:119:10#012  _setContentType@resource:///org/gnome/shell/misc/ibusManager.js:266:14#012  @resource:///org/gnome/shell/ui/init.js:21:20#012  
+2026-10-09T10:44:58.017509-03:00 curzas-alumno-5225 systemd[1]: Created slice user-1000.slice - User Slice of UID 1000.
+2026-10-09T10:44:58.020730-03:00 curzas-alumno-5225 systemd[1]: Starting user-runtime-dir@1000.service - User Runtime Directory /run/user/1000...
+2026-10-09T10:44:58.082020-03:00 curzas-alumno-5225 systemd[1]: Finished user-runtime-dir@1000.service - User Runtime Directory /run/user/1000.
+2026-10-09T10:44:58.098151-03:00 curzas-alumno-5225 systemd[1]: Starting user@1000.service - User Manager for UID 1000...
+2026-10-09T10:44:58.350007-03:00 curzas-alumno-5225 systemd[2062]: Queued start job for default target default.target.
+2026-10-09T10:44:58.352058-03:00 curzas-alumno-5225 systemd[2062]: Created slice app.slice - User Application Slice.
+2026-10-09T10:44:58.352567-03:00 curzas-alumno-5225 systemd[2062]: Created slice session.slice - User Core Session Slice.
+2026-10-09T10:44:58.369208-03:00 curzas-alumno-5225 systemd[2062]: Started ubuntu-report.path - Pending report trigger for Ubuntu Report.
+2026-10-09T10:44:58.369518-03:00 curzas-alumno-5225 systemd[2062]: Started launchpadlib-cache-clean.timer - Clean up old files in the Launchpadlib cache.
+2026-10-09T10:44:58.369809-03:00 curzas-alumno-5225 systemd[2062]: Started snap.firmware-updater.firmware-notifier.timer - Timer firmware-notifier for snap application firmware-updater.firmware-notifier.
+2026-10-09T10:44:58.369921-03:00 curzas-alumno-5225 systemd[2062]: Reached target paths.target - Paths.
+2026-10-09T10:44:58.370671-03:00 curzas-alumno-5225 systemd[2062]: Reached target timers.target - Timers.
+2026-10-09T10:44:58.374343-03:00 curzas-alumno-5225 systemd[2062]: Starting dbus.socket - D-Bus User Message Bus Socket...
+2026-10-09T10:44:58.374562-03:00 curzas-alumno-5225 systemd[2062]: Listening on dirmngr.socket - GnuPG network certificate management daemon.
+2026-10-09T10:44:58.374761-03:00 curzas-alumno-5225 systemd[2062]: Listening on gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+2026-10-09T10:44:58.375443-03:00 curzas-alumno-5225 systemd[2062]: Listening on gnome-keyring-daemon.socket - GNOME Keyring daemon.
+2026-10-09T10:44:58.375613-03:00 curzas-alumno-5225 systemd[2062]: Listening on gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+2026-10-09T10:44:58.375779-03:00 curzas-alumno-5225 systemd[2062]: Listening on gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+2026-10-09T10:44:58.386351-03:00 curzas-alumno-5225 systemd[2062]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+2026-10-09T10:44:58.386561-03:00 curzas-alumno-5225 systemd[2062]: Listening on gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+2026-10-09T10:44:58.386634-03:00 curzas-alumno-5225 systemd[2062]: Listening on keyboxd.socket - GnuPG public key management service.
+2026-10-09T10:44:58.386696-03:00 curzas-alumno-5225 systemd[2062]: Listening on pipewire-pulse.socket - PipeWire PulseAudio.
+2026-10-09T10:44:58.386742-03:00 curzas-alumno-5225 systemd[2062]: Listening on pipewire.socket - PipeWire Multimedia System Sockets.
+2026-10-09T10:44:58.386806-03:00 curzas-alumno-5225 systemd[2062]: Listening on pk-debconf-helper.socket - debconf communication socket.
+2026-10-09T10:44:58.387693-03:00 curzas-alumno-5225 systemd[2062]: Listening on snapd.session-agent.socket - REST API socket for snapd user session agent.
+2026-10-09T10:44:58.387790-03:00 curzas-alumno-5225 systemd[2062]: Listening on speech-dispatcher.socket - Speech Dispatcher Socket.
+2026-10-09T10:44:58.418812-03:00 curzas-alumno-5225 systemd[2062]: Listening on dbus.socket - D-Bus User Message Bus Socket.
+2026-10-09T10:44:58.454346-03:00 curzas-alumno-5225 systemd[2062]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+2026-10-09T10:44:58.461931-03:00 curzas-alumno-5225 systemd[2062]: Reached target sockets.target - Sockets.
+2026-10-09T10:44:58.462143-03:00 curzas-alumno-5225 systemd[2062]: Reached target basic.target - Basic System.
+2026-10-09T10:44:58.463078-03:00 curzas-alumno-5225 systemd[1]: Started user@1000.service - User Manager for UID 1000.
+2026-10-09T10:44:58.464847-03:00 curzas-alumno-5225 systemd[2062]: gnome-initial-setup-copy-worker.service - GNOME Initial Setup Copy Worker was skipped because of an unmet condition check (ConditionPathExists=!/home/gisellah/.config/gnome-initial-setup-done).
+2026-10-09T10:44:58.464916-03:00 curzas-alumno-5225 systemd[1]: Started session-2.scope - Session 2 of User gisellah.
+2026-10-09T10:44:58.467749-03:00 curzas-alumno-5225 systemd[2062]: Started pipewire.service - PipeWire Multimedia Service.
+2026-10-09T10:44:58.472201-03:00 curzas-alumno-5225 systemd[2062]: Started filter-chain.service - PipeWire filter chain daemon.
+2026-10-09T10:44:58.481785-03:00 curzas-alumno-5225 systemd[2062]: Started snap.snapd-desktop-integration.snapd-desktop-integration.service - Service for snap application snapd-desktop-integration.snapd-desktop-integration.
+2026-10-09T10:44:58.505962-03:00 curzas-alumno-5225 systemd[2062]: Started wireplumber.service - Multimedia Service Session Manager.
+2026-10-09T10:44:58.520986-03:00 curzas-alumno-5225 systemd[2062]: Started pipewire-pulse.service - PipeWire PulseAudio.
+2026-10-09T10:44:58.521161-03:00 curzas-alumno-5225 systemd[2062]: Reached target default.target - Main User Target.
+2026-10-09T10:44:58.521565-03:00 curzas-alumno-5225 systemd[2062]: Startup finished in 402ms.
+2026-10-09T10:44:58.522804-03:00 curzas-alumno-5225 systemd[2062]: Started gnome-keyring-daemon.service - GNOME Keyring daemon.
+2026-10-09T10:44:58.696976-03:00 curzas-alumno-5225 systemd[2062]: Starting dbus.service - D-Bus User Message Bus...
+2026-10-09T10:44:58.756403-03:00 curzas-alumno-5225 gnome-keyring-daemon[2096]: GNOME_KEYRING_CONTROL=/run/user/1000/keyring
+2026-10-09T10:44:58.769823-03:00 curzas-alumno-5225 dbus-daemon[2100]: [session uid=1000 pid=2100] AppArmor D-Bus mediation is enabled
+2026-10-09T10:44:58.771396-03:00 curzas-alumno-5225 systemd[2062]: Started dbus.service - D-Bus User Message Bus.
+2026-10-09T10:44:58.775111-03:00 curzas-alumno-5225 rtkit-daemon[1586]: Supervising 8 threads of 5 processes of 1 users.
+2026-10-09T10:44:58.776528-03:00 curzas-alumno-5225 rtkit-daemon[1586]: message repeated 2 times: [ Supervising 8 threads of 5 processes of 1 users.]
+2026-10-09T10:44:58.790453-03:00 curzas-alumno-5225 rtkit-daemon[1586]: Successfully made thread 2078 of process 2078 owned by '1000' high priority at nice level -11.
+2026-10-09T10:44:58.790581-03:00 curzas-alumno-5225 rtkit-daemon[1586]: Supervising 9 threads of 6 processes of 2 users.
+2026-10-09T10:44:58.824125-03:00 curzas-alumno-5225 rtkit-daemon[1586]: message repeated 7 times: [ Supervising 9 threads of 6 processes of 2 users.]
+2026-10-09T10:44:58.826836-03:00 curzas-alumno-5225 rtkit-daemon[1586]: Successfully made thread 2092 of process 2092 owned by '1000' high priority at nice level -11.
+2026-10-09T10:44:58.827072-03:00 curzas-alumno-5225 rtkit-daemon[1586]: Supervising 10 threads of 7 processes of 2 users.
+2026-10-09T10:44:58.828212-03:00 curzas-alumno-5225 rtkit-daemon[1586]: message repeated 2 times: [ Supervising 10 threads of 7 processes of 2 users.]
+2026-10-09T10:44:58.836648-03:00 curzas-alumno-5225 rtkit-daemon[1586]: Successfully made thread 2091 of process 2091 owned by '1000' high priority at nice level -11.
+2026-10-09T10:44:58.836789-03:00 curzas-alumno-5225 rtkit-daemon[1586]: Supervising 11 threads of 8 processes of 2 users.
+2026-10-09T10:44:58.837250-03:00 curzas-alumno-5225 pipewire[2078]: mod.jackdbus-detect: Failed to receive jackdbus reply: org.freedesktop.DBus.Error.ServiceUnknown: The name org.jackaudio.service was not provided by any .service files
+2026-10-09T10:44:58.839323-03:00 curzas-alumno-5225 rtkit-daemon[1586]: Successfully made thread 2111 of process 2079 owned by '1000' RT at priority 20.
+2026-10-09T10:44:58.839396-03:00 curzas-alumno-5225 rtkit-daemon[1586]: Supervising 12 threads of 9 processes of 2 users.
+2026-10-09T10:44:58.871521-03:00 curzas-alumno-5225 rtkit-daemon[1586]: Successfully made thread 2109 of process 2091 owned by '1000' RT at priority 20.
+2026-10-09T10:44:58.871586-03:00 curzas-alumno-5225 rtkit-daemon[1586]: Supervising 13 threads of 9 processes of 2 users.
+2026-10-09T10:44:58.873385-03:00 curzas-alumno-5225 rtkit-daemon[1586]: Successfully made thread 2113 of process 2078 owned by '1000' RT at priority 20.
+2026-10-09T10:44:58.873631-03:00 curzas-alumno-5225 rtkit-daemon[1586]: Supervising 14 threads of 9 processes of 2 users.
+2026-10-09T10:44:58.886327-03:00 curzas-alumno-5225 rtkit-daemon[1586]: Successfully made thread 2123 of process 2092 owned by '1000' RT at priority 20.
+2026-10-09T10:44:58.886381-03:00 curzas-alumno-5225 rtkit-daemon[1586]: Supervising 15 threads of 9 processes of 2 users.
+2026-10-09T10:44:58.928268-03:00 curzas-alumno-5225 wireplumber[2091]: SPA handle 'api.libcamera.enum.manager' could not be loaded; is it installed?
+2026-10-09T10:44:58.928470-03:00 curzas-alumno-5225 wireplumber[2091]: PipeWire's libcamera SPA missing or broken. libcamera not supported.
+2026-10-09T10:44:59.017236-03:00 curzas-alumno-5225 gdm3: Gdm: on_display_added: assertion 'GDM_IS_REMOTE_DISPLAY (display)' failed
+2026-10-09T10:44:59.037557-03:00 curzas-alumno-5225 kernel: rfkill: input handler enabled
+2026-10-09T10:44:59.041652-03:00 curzas-alumno-5225 gsd-media-keys[1733]: Unable to get default source
+2026-10-09T10:44:59.042438-03:00 curzas-alumno-5225 gsd-media-keys[1733]: Unable to get default sink
+2026-10-09T10:44:59.182430-03:00 curzas-alumno-5225 wireplumber[2091]: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+2026-10-09T10:44:59.182845-03:00 curzas-alumno-5225 wireplumber[2091]: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+2026-10-09T10:44:59.182931-03:00 curzas-alumno-5225 wireplumber[2091]: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+2026-10-09T10:44:59.183094-03:00 curzas-alumno-5225 wireplumber[2091]: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+2026-10-09T10:44:59.184136-03:00 curzas-alumno-5225 wireplumber[2091]: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+2026-10-09T10:44:59.184206-03:00 curzas-alumno-5225 wireplumber[2091]: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+2026-10-09T10:44:59.184270-03:00 curzas-alumno-5225 wireplumber[2091]: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+2026-10-09T10:44:59.184332-03:00 curzas-alumno-5225 wireplumber[2091]: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+2026-10-09T10:44:59.184391-03:00 curzas-alumno-5225 wireplumber[2091]: The decibel volume range for element 'Center' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+2026-10-09T10:44:59.184453-03:00 curzas-alumno-5225 wireplumber[2091]: The decibel volume range for element 'LFE' (-4650 dB - -2400 dB) has negative maximum. Disabling the decibel range.
+2026-10-09T10:44:59.208999-03:00 curzas-alumno-5225 dbus-daemon[2100]: [session uid=1000 pid=2100] Activating via systemd: service name='org.freedesktop.portal.Documents' unit='xdg-document-portal.service' requested by ':1.11' (uid=1000 pid=2081 comm="/snap/snapd/current/usr/bin/snap run snapd-desktop" label="unconfined")
+2026-10-09T10:44:59.214847-03:00 curzas-alumno-5225 systemd[2062]: Starting xdg-document-portal.service - flatpak document portal service...
+2026-10-09T10:44:59.238937-03:00 curzas-alumno-5225 wireplumber[2091]: BlueZ system service is not available
+2026-10-09T10:44:59.274576-03:00 curzas-alumno-5225 dbus-daemon[2100]: [session uid=1000 pid=2100] Activating via systemd: service name='org.freedesktop.impl.portal.PermissionStore' unit='xdg-permission-store.service' requested by ':1.12' (uid=1000 pid=2178 comm="/usr/libexec/xdg-document-portal" label="unconfined")
+2026-10-09T10:44:59.281443-03:00 curzas-alumno-5225 systemd[2062]: Starting xdg-permission-store.service - sandboxed app permission store...
+2026-10-09T10:44:59.289351-03:00 curzas-alumno-5225 dbus-daemon[2100]: [session uid=1000 pid=2100] Successfully activated service 'org.freedesktop.impl.portal.PermissionStore'
+2026-10-09T10:44:59.289648-03:00 curzas-alumno-5225 systemd[2062]: Started xdg-permission-store.service - sandboxed app permission store.
+2026-10-09T10:44:59.291044-03:00 curzas-alumno-5225 dbus-daemon[2100]: [session uid=1000 pid=2100] Successfully activated service 'org.freedesktop.portal.Documents'
+2026-10-09T10:44:59.291219-03:00 curzas-alumno-5225 systemd[2062]: Started xdg-document-portal.service - flatpak document portal service.
+2026-10-09T10:44:59.313903-03:00 curzas-alumno-5225 xdg-document-portal[2178]: Ignoring invalid max threads value 4294967295 > max (100000).
+2026-10-09T10:44:59.893454-03:00 curzas-alumno-5225 systemd[2062]: Created slice app-gnome\x2dsession\x2dmanager.slice - Slice /app/gnome-session-manager.
+2026-10-09T10:44:59.894068-03:00 curzas-alumno-5225 systemd[2062]: Created slice background.slice - User Background Tasks Slice.
+2026-10-09T10:44:59.894226-03:00 curzas-alumno-5225 systemd[2062]: Started update-notifier-crash.path - Path trigger for Apport crash notifications.
+2026-10-09T10:44:59.903044-03:00 curzas-alumno-5225 systemd[2062]: Started update-notifier-release.path - Path trigger for new release of Ubuntu notifications.
+2026-10-09T10:44:59.903162-03:00 curzas-alumno-5225 systemd[2062]: Reached target gnome-session-wayland.target - GNOME Wayland Session.
+2026-10-09T10:44:59.903276-03:00 curzas-alumno-5225 systemd[2062]: Reached target org.gnome.Shell.target - GNOME Shell.
+2026-10-09T10:44:59.909429-03:00 curzas-alumno-5225 systemd[2062]: Started gcr-ssh-agent.service - GCR ssh-agent wrapper.
+2026-10-09T10:44:59.910456-03:00 curzas-alumno-5225 systemd[2062]: Starting gnome-session-monitor.service - Monitor Session leader for GNOME Session...
+2026-10-09T10:44:59.911398-03:00 curzas-alumno-5225 systemd[2062]: Starting session-migration.service - Session Migration...
+2026-10-09T10:44:59.912543-03:00 curzas-alumno-5225 systemd[2062]: Started ssh-agent.service - OpenSSH Agent.
+2026-10-09T10:44:59.914517-03:00 curzas-alumno-5225 systemd[2062]: Starting xdg-desktop-portal-rewrite-launchers.service - Rewrite dynamic launcher portal entries...
+2026-10-09T10:44:59.956089-03:00 curzas-alumno-5225 dbus-daemon[2100]: [session uid=1000 pid=2100] Activating via systemd: service name='org.gtk.vfs.Daemon' unit='gvfs-daemon.service' requested by ':1.19' (uid=1000 pid=2244 comm="/usr/libexec/xdg-desktop-portal-rewrite-launchers" label="unconfined")
+2026-10-09T10:45:00.018997-03:00 curzas-alumno-5225 systemd[2062]: Starting gvfs-daemon.service - Virtual filesystem service...
+2026-10-09T10:45:00.023875-03:00 curzas-alumno-5225 systemd[2062]: Finished session-migration.service - Session Migration.
+2026-10-09T10:45:00.030585-03:00 curzas-alumno-5225 systemd[2062]: Started gnome-session-monitor.service - Monitor Session leader for GNOME Session.
+2026-10-09T10:45:00.290534-03:00 curzas-alumno-5225 dbus-daemon[2100]: [session uid=1000 pid=2100] Successfully activated service 'org.gtk.vfs.Daemon'
+2026-10-09T10:45:00.294584-03:00 curzas-alumno-5225 systemd[2062]: Started gvfs-daemon.service - Virtual filesystem service.
+2026-10-09T10:45:00.303080-03:00 curzas-alumno-5225 systemd[2062]: Finished xdg-desktop-portal-rewrite-launchers.service - Rewrite dynamic launcher portal entries.
+2026-10-09T10:45:00.303447-03:00 curzas-alumno-5225 systemd[2062]: Reached target graphical-session-pre.target - Session services which should run early before the graphical session is brought up.
+2026-10-09T10:45:00.303549-03:00 curzas-alumno-5225 systemd[2062]: Reached target gnome-session-pre.target - Tasks to be run before GNOME Session starts.
+2026-10-09T10:45:00.307586-03:00 curzas-alumno-5225 systemd[2062]: Starting gnome-session-manager@ubuntu.service - GNOME Session Manager (session: ubuntu)...
+2026-10-09T10:45:00.621294-03:00 curzas-alumno-5225 systemd[2062]: Started app-gnome-gnome\x2dkeyring\x2dsecrets-2291.scope - Application launched by gnome-session-binary.
+2026-10-09T10:45:00.622324-03:00 curzas-alumno-5225 systemd[2062]: Started app-gnome-gnome\x2dkeyring\x2dssh-2293.scope - Application launched by gnome-session-binary.
+2026-10-09T10:45:00.627856-03:00 curzas-alumno-5225 systemd[2062]: Started app-gnome-gnome\x2dkeyring\x2dpkcs11-2295.scope - Application launched by gnome-session-binary.
+2026-10-09T10:45:00.647535-03:00 curzas-alumno-5225 gnome-keyring-d[2096]: The Secret Service was already initialized
+2026-10-09T10:45:00.648246-03:00 curzas-alumno-5225 gnome-keyring-secrets.desktop[2302]: discover_other_daemon: 1GNOME_KEYRING_CONTROL=/run/user/1000/keyring
+2026-10-09T10:45:00.650267-03:00 curzas-alumno-5225 gnome-keyring-ssh.desktop[2303]: discover_other_daemon: 1GNOME_KEYRING_CONTROL=/run/user/1000/keyring
+2026-10-09T10:45:00.650288-03:00 curzas-alumno-5225 gnome-keyring-ssh.desktop[2303]: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+2026-10-09T10:45:00.656447-03:00 curzas-alumno-5225 gnome-keyring-d[2096]: The PKCS#11 component was already initialized
+2026-10-09T10:45:00.657789-03:00 curzas-alumno-5225 gnome-keyring-pkcs11.desktop[2306]: discover_other_daemon: 1GNOME_KEYRING_CONTROL=/run/user/1000/keyring
+2026-10-09T10:45:00.657843-03:00 curzas-alumno-5225 gnome-keyring-pkcs11.desktop[2306]: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+2026-10-09T10:45:00.660247-03:00 curzas-alumno-5225 systemd[2062]: Started gnome-session-manager@ubuntu.service - GNOME Session Manager (session: ubuntu).
+2026-10-09T10:45:00.660749-03:00 curzas-alumno-5225 systemd[2062]: Reached target gnome-session-manager.target - GNOME Session Manager is ready.
+2026-10-09T10:45:00.663407-03:00 curzas-alumno-5225 systemd[2062]: Starting org.gnome.Shell@wayland.service - GNOME Shell on Wayland...
+2026-10-09T10:45:00.663544-03:00 curzas-alumno-5225 systemd[2062]: org.gnome.Shell@x11.service - GNOME Shell on X11 was skipped because of an unmet condition check (ConditionEnvironment=XDG_SESSION_TYPE=x11).
+2026-10-09T10:45:00.700308-03:00 curzas-alumno-5225 systemd[2062]: Started app-gnome-at\x2dspi\x2ddbus\x2dbus-2308.scope - Application launched by gnome-session-binary.
+2026-10-09T10:45:00.700917-03:00 curzas-alumno-5225 systemd[2062]: Started app-gnome-xdg\x2duser\x2ddirs-2310.scope - Application launched by gnome-session-binary.
+2026-10-09T10:45:00.776786-03:00 curzas-alumno-5225 gnome-shell[2309]: Running GNOME Shell (using mutter 46.2) as a Wayland display server
+2026-10-09T10:45:00.892668-03:00 curzas-alumno-5225 gnome-shell[2309]: VMware: No 3D enabled (0, Conseguido).
+2026-10-09T10:45:00.896767-03:00 curzas-alumno-5225 gnome-shell[2309]: VMware: No 3D enabled (0, Conseguido).
+2026-10-09T10:45:00.904683-03:00 curzas-alumno-5225 rtkit-daemon[1586]: Supervising 15 threads of 9 processes of 2 users.
+2026-10-09T10:45:00.905485-03:00 curzas-alumno-5225 rtkit-daemon[1586]: Supervising 15 threads of 9 processes of 2 users.
+2026-10-09T10:45:00.910576-03:00 curzas-alumno-5225 rtkit-daemon[1586]: Successfully made thread 2334 of process 2309 owned by '1000' RT at priority 20.
+2026-10-09T10:45:00.910675-03:00 curzas-alumno-5225 rtkit-daemon[1586]: Supervising 16 threads of 10 processes of 2 users.
+2026-10-09T10:45:00.913393-03:00 curzas-alumno-5225 gnome-shell[2309]: Made thread 'KMS thread' realtime scheduled
+2026-10-09T10:45:00.983670-03:00 curzas-alumno-5225 gnome-shell[2309]: VMware: No 3D enabled (0, Conseguido).
+2026-10-09T10:45:00.985469-03:00 curzas-alumno-5225 gnome-shell[2309]: libEGL warning: egl: failed to create dri2 screen
+2026-10-09T10:45:00.987645-03:00 curzas-alumno-5225 gnome-shell[2309]: VMware: No 3D enabled (0, Conseguido).
+2026-10-09T10:45:00.990180-03:00 curzas-alumno-5225 gnome-shell[2309]: libEGL warning: egl: failed to create dri2 screen
+2026-10-09T10:45:00.992290-03:00 curzas-alumno-5225 gnome-shell[2309]: VMware: No 3D enabled (0, Conseguido).
+2026-10-09T10:45:00.998345-03:00 curzas-alumno-5225 gnome-shell[2309]: libEGL warning: egl: failed to create dri2 screen
+2026-10-09T10:45:01.000873-03:00 curzas-alumno-5225 gnome-shell[2309]: Added device '/dev/dri/card0' (vmwgfx) using atomic mode setting.
+2026-10-09T10:45:01.002013-03:00 curzas-alumno-5225 gnome-shell[2309]: Failed to initialize accelerated iGPU/dGPU framebuffer sharing: Not hardware accelerated
+2026-10-09T10:45:01.002113-03:00 curzas-alumno-5225 gnome-shell[2309]: Created gbm renderer for '/dev/dri/card0'
+2026-10-09T10:45:01.002211-03:00 curzas-alumno-5225 gnome-shell[2309]: Boot VGA GPU /dev/dri/card0 selected as primary
+2026-10-09T10:45:01.226147-03:00 curzas-alumno-5225 gnome-shell[2309]: Using public X11 display :0, (using :1 for managed services)
+2026-10-09T10:45:01.226397-03:00 curzas-alumno-5225 gnome-shell[2309]: Using Wayland display name 'wayland-0'
+2026-10-09T10:45:01.270917-03:00 curzas-alumno-5225 at-spi-dbus-bus.desktop[2330]: dbus-daemon[2330]: Activating service name='org.a11y.atspi.Registry' requested by ':1.0' (uid=1000 pid=2309 comm="/usr/bin/gnome-shell" label="unconfined")
+2026-10-09T10:45:01.290774-03:00 curzas-alumno-5225 at-spi-dbus-bus.desktop[2330]: dbus-daemon[2330]: Successfully activated service 'org.a11y.atspi.Registry'
+2026-10-09T10:45:01.291230-03:00 curzas-alumno-5225 at-spi-dbus-bus.desktop[2367]: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+2026-10-09T10:45:01.461137-03:00 curzas-alumno-5225 CRON[2375]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+2026-10-09T10:45:01.726715-03:00 curzas-alumno-5225 gnome-shell[2309]: Unset XDG_SESSION_ID, getCurrentSessionProxy() called outside a user session. Asking logind directly.
+2026-10-09T10:45:01.727123-03:00 curzas-alumno-5225 gnome-shell[2309]: Will monitor session 2
+2026-10-09T10:45:01.768604-03:00 curzas-alumno-5225 dbus-daemon[2100]: [session uid=1000 pid=2100] Activating service name='org.gnome.Shell.Screencast' requested by ':1.32' (uid=1000 pid=2309 comm="/usr/bin/gnome-shell" label="unconfined")
+2026-10-09T10:45:01.818472-03:00 curzas-alumno-5225 dbus-daemon[2100]: [session uid=1000 pid=2100] Activating service name='org.gnome.Shell.CalendarServer' requested by ':1.32' (uid=1000 pid=2309 comm="/usr/bin/gnome-shell" label="unconfined")
+2026-10-09T10:45:02.071927-03:00 curzas-alumno-5225 dbus-daemon[2100]: [session uid=1000 pid=2100] Activating via systemd: service name='org.gnome.evolution.dataserver.Sources5' unit='evolution-source-registry.service' requested by ':1.39' (uid=1000 pid=2390 comm="/usr/libexec/gnome-shell-calendar-server" label="unconfined")
+2026-10-09T10:45:02.084084-03:00 curzas-alumno-5225 systemd[2062]: Starting evolution-source-registry.service - Evolution source registry...
+2026-10-09T10:45:02.093967-03:00 curzas-alumno-5225 dbus-daemon[2100]: [session uid=1000 pid=2100] Activating service name='org.gnome.Shell.Notifications' requested by ':1.32' (uid=1000 pid=2309 comm="/usr/bin/gnome-shell" label="unconfined")
+2026-10-09T10:45:02.124145-03:00 curzas-alumno-5225 systemd[2062]: Started org.gnome.Shell@wayland.service - GNOME Shell on Wayland.
+2026-10-09T10:45:02.125156-03:00 curzas-alumno-5225 systemd[2062]: Reached target gnome-session-initialized.target - GNOME Session is initialized.
+2026-10-09T10:45:02.125192-03:00 curzas-alumno-5225 systemd[2062]: gnome-session-x11-services.target - GNOME session X11 services is inactive.
+2026-10-09T10:45:02.125221-03:00 curzas-alumno-5225 systemd[2062]: Dependency failed for org.gnome.SettingsDaemon.XSettings.service - GNOME XSettings service.
+2026-10-09T10:45:02.125256-03:00 curzas-alumno-5225 systemd[2062]: org.gnome.SettingsDaemon.XSettings.service: Job org.gnome.SettingsDaemon.XSettings.service/start failed with result 'dependency'.
+2026-10-09T10:45:02.125282-03:00 curzas-alumno-5225 systemd[2062]: gnome-session-x11-services-ready.target: Job gnome-session-x11-services-ready.target/verify-active failed with result 'dependency'.
+2026-10-09T10:45:02.125306-03:00 curzas-alumno-5225 systemd[2062]: Reached target gnome-session@ubuntu.target - GNOME Session (session: ubuntu).
+2026-10-09T10:45:02.125336-03:00 curzas-alumno-5225 systemd[2062]: Reached target org.gnome.SettingsDaemon.XSettings.target - GNOME XSettings target.
+2026-10-09T10:45:02.132363-03:00 curzas-alumno-5225 systemd[2062]: Starting gnome-session-signal-init.service - Signal initialization done to GNOME Session Manager...
+2026-10-09T10:45:02.140921-03:00 curzas-alumno-5225 systemd[2062]: Starting org.freedesktop.IBus.session.GNOME.service - IBus Daemon for GNOME...
+2026-10-09T10:45:02.143766-03:00 curzas-alumno-5225 systemd[2062]: Starting org.gnome.SettingsDaemon.A11ySettings.service - GNOME accessibility service...
+2026-10-09T10:45:02.149548-03:00 curzas-alumno-5225 systemd[2062]: Starting org.gnome.SettingsDaemon.Color.service - GNOME color management service...
+2026-10-09T10:45:02.150937-03:00 curzas-alumno-5225 systemd[2062]: Starting org.gnome.SettingsDaemon.Datetime.service - GNOME date & time service...
+2026-10-09T10:45:02.166492-03:00 curzas-alumno-5225 systemd[2062]: Starting org.gnome.SettingsDaemon.Housekeeping.service - GNOME maintenance of expirable data service...
+2026-10-09T10:45:02.167563-03:00 curzas-alumno-5225 systemd[2062]: Starting org.gnome.SettingsDaemon.Keyboard.service - GNOME keyboard configuration service...
+2026-10-09T10:45:02.169157-03:00 curzas-alumno-5225 systemd[2062]: Starting org.gnome.SettingsDaemon.MediaKeys.service - GNOME keyboard shortcuts service...
+2026-10-09T10:45:02.171541-03:00 curzas-alumno-5225 systemd[2062]: Starting org.gnome.SettingsDaemon.Power.service - GNOME power management service...
+2026-10-09T10:45:02.178799-03:00 curzas-alumno-5225 systemd[2062]: Starting org.gnome.SettingsDaemon.PrintNotifications.service - GNOME printer notifications service...
+2026-10-09T10:45:02.179666-03:00 curzas-alumno-5225 systemd[2062]: Starting org.gnome.SettingsDaemon.Rfkill.service - GNOME RFKill support service...
+2026-10-09T10:45:02.180596-03:00 curzas-alumno-5225 systemd[2062]: Starting org.gnome.SettingsDaemon.ScreensaverProxy.service - GNOME FreeDesktop screensaver service...
+2026-10-09T10:45:02.181488-03:00 curzas-alumno-5225 systemd[2062]: Starting org.gnome.SettingsDaemon.Sharing.service - GNOME file sharing service...
+2026-10-09T10:45:02.186883-03:00 curzas-alumno-5225 systemd[2062]: Starting org.gnome.SettingsDaemon.Smartcard.service - GNOME smartcard service...
+2026-10-09T10:45:02.187740-03:00 curzas-alumno-5225 systemd[2062]: Starting org.gnome.SettingsDaemon.Sound.service - GNOME sound sample caching service...
+2026-10-09T10:45:02.188568-03:00 curzas-alumno-5225 systemd[2062]: Starting org.gnome.SettingsDaemon.Wacom.service - GNOME Wacom tablet support service...
+2026-10-09T10:45:02.293431-03:00 curzas-alumno-5225 systemd[2062]: Finished gnome-session-signal-init.service - Signal initialization done to GNOME Session Manager.
+2026-10-09T10:45:02.297835-03:00 curzas-alumno-5225 spice-vdagent[2442]: vdagent virtio channel /dev/virtio-ports/com.redhat.spice.0 does not exist, exiting
+2026-10-09T10:45:02.299409-03:00 curzas-alumno-5225 systemd[2062]: Started app-gnome-spice\x2dvdagent-2442.scope - Application launched by gnome-session-binary.
+2026-10-09T10:45:02.338409-03:00 curzas-alumno-5225 gnome-shell[2309]: Gio.UnixInputStream has been moved to a separate platform-specific library. Please update your code to use GioUnix.InputStream instead.#0120 inhibit() ["resource:///org/gnome/shell/misc/loginManager.js":209:8]#0121 InterpretGeneratorResume() ["self-hosted":1461:33]#0122 AsyncFunctionNext() ["self-hosted":852:26]#0123 anonymous() ["resource:///org/gnome/shell/ui/init.js":21:19]
+2026-10-09T10:45:02.378627-03:00 curzas-alumno-5225 gnome-session-binary[2269]: Entering running state
+2026-10-09T10:45:02.430215-03:00 curzas-alumno-5225 at-spi2-registr[2367]: Failed to register client: GDBus.Error:org.gnome.SessionManager.AlreadyRegistered: Unable to register client
+2026-10-09T10:45:02.430832-03:00 curzas-alumno-5225 at-spi2-registr[2367]: Unable to register client with session manager
+2026-10-09T10:45:02.451375-03:00 curzas-alumno-5225 systemd[2062]: Started app-gnome-im\x2dlaunch-2468.scope - Application launched by gnome-session-binary.
+2026-10-09T10:45:02.452018-03:00 curzas-alumno-5225 systemd[2062]: Started app-gnome-org.gnome.Evolution\x2dalarm\x2dnotify-2463.scope - Application launched by gnome-session-binary.
+2026-10-09T10:45:02.454374-03:00 curzas-alumno-5225 systemd[2062]: Started app-gnome-org.gnome.SettingsDaemon.DiskUtilityNotify-2462.scope - Application launched by gnome-session-binary.
+2026-10-09T10:45:02.457467-03:00 curzas-alumno-5225 systemd[2062]: Started app-gnome-snap\x2duserd\x2dautostart-2460.scope - Application launched by gnome-session-binary.
+2026-10-09T10:45:02.461681-03:00 curzas-alumno-5225 systemd[2062]: Started app-gnome-ubuntu\x2dreport\x2don\x2dupgrade-2449.scope - Application launched by gnome-session-binary.
+2026-10-09T10:45:02.462248-03:00 curzas-alumno-5225 systemd[2062]: Started app-gnome-user\x2ddirs\x2dupdate\x2dgtk-2453.scope - Application launched by gnome-session-binary.
+2026-10-09T10:45:02.462800-03:00 curzas-alumno-5225 systemd[2062]: Started app-gnome-vboxclient-2450.scope - Application launched by gnome-session-binary.
+2026-10-09T10:45:02.516897-03:00 curzas-alumno-5225 vboxclient.desktop[2471]: 13:45:02.516644 main     VBoxClient 7.2.16 r174877 (verbosity: 0) linux.amd64 (Aug 13 2026 21:29:06) release log
+2026-10-09T10:45:02.517857-03:00 curzas-alumno-5225 vboxclient.desktop[2471]: 13:45:02.516646 main     Log opened 2026-10-09T13:45:02.516630000Z
+2026-10-09T10:45:02.517920-03:00 curzas-alumno-5225 vboxclient.desktop[2471]: 13:45:02.516910 main     OS Product: Linux
+2026-10-09T10:45:02.517960-03:00 curzas-alumno-5225 vboxclient.desktop[2471]: 13:45:02.516917 main     OS Release: 7.0.0-34-generic
+2026-10-09T10:45:02.518002-03:00 curzas-alumno-5225 vboxclient.desktop[2471]: 13:45:02.516920 main     OS Version: #34~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep  4 15:38:29 UTC 2
+2026-10-09T10:45:02.518044-03:00 curzas-alumno-5225 vboxclient.desktop[2471]: 13:45:02.516925 main     Executable: /opt/VBoxGuestAdditions-7.2.16/bin/VBoxClient
+2026-10-09T10:45:02.518073-03:00 curzas-alumno-5225 vboxclient.desktop[2471]: 13:45:02.516925 main     Process ID: 2471
+2026-10-09T10:45:02.518123-03:00 curzas-alumno-5225 vboxclient.desktop[2471]: 13:45:02.516925 main     Package type: LINUX_64BITS_GENERIC
+2026-10-09T10:45:02.518165-03:00 curzas-alumno-5225 vboxclient.desktop[2471]: 13:45:02.516930 main      VBoxClient 7.2.16 r174877 started. Verbose level = 0
+2026-10-09T10:45:02.722017-03:00 curzas-alumno-5225 dbus-daemon[2100]: [session uid=1000 pid=2100] Activating via systemd: service name='org.gtk.vfs.UDisks2VolumeMonitor' unit='gvfs-udisks2-volume-monitor.service' requested by ':1.32' (uid=1000 pid=2309 comm="/usr/bin/gnome-shell" label="unconfined")
+2026-10-09T10:45:02.775205-03:00 curzas-alumno-5225 dbus-daemon[885]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.82' (uid=1000 pid=2428 comm="/usr/libexec/gsd-rfkill" label="unconfined")
+2026-10-09T10:45:02.794640-03:00 curzas-alumno-5225 systemd[1]: Starting systemd-hostnamed.service - Hostname Service...
+2026-10-09T10:45:02.840941-03:00 curzas-alumno-5225 systemd[2062]: Started org.gnome.SettingsDaemon.Datetime.service - GNOME date & time service.
+2026-10-09T10:45:02.841001-03:00 curzas-alumno-5225 systemd[2062]: Started org.gnome.SettingsDaemon.Housekeeping.service - GNOME maintenance of expirable data service.
+2026-10-09T10:45:02.841024-03:00 curzas-alumno-5225 systemd[2062]: Reached target org.gnome.SettingsDaemon.Datetime.target - GNOME date & time target.
+2026-10-09T10:45:02.841064-03:00 curzas-alumno-5225 systemd[2062]: Reached target org.gnome.SettingsDaemon.Housekeeping.target - GNOME maintenance of expirable data target.
+2026-10-09T10:45:02.884353-03:00 curzas-alumno-5225 systemd[2062]: Starting gvfs-udisks2-volume-monitor.service - Virtual filesystem service - disk device monitor...
+2026-10-09T10:45:02.884435-03:00 curzas-alumno-5225 systemd[2062]: Started org.gnome.SettingsDaemon.Smartcard.service - GNOME smartcard service.
+2026-10-09T10:45:02.884462-03:00 curzas-alumno-5225 systemd[2062]: Reached target org.gnome.SettingsDaemon.Smartcard.target - GNOME smartcard target.
+2026-10-09T10:45:02.903847-03:00 curzas-alumno-5225 dbus-daemon[885]: [system] Successfully activated service 'org.freedesktop.hostname1'
+2026-10-09T10:45:02.904920-03:00 curzas-alumno-5225 systemd[1]: Started systemd-hostnamed.service - Hostname Service.
+2026-10-09T10:45:02.954838-03:00 curzas-alumno-5225 systemd[2062]: Started org.gnome.SettingsDaemon.Sharing.service - GNOME file sharing service.
+2026-10-09T10:45:02.955698-03:00 curzas-alumno-5225 systemd[2062]: Reached target org.gnome.SettingsDaemon.Sharing.target - GNOME file sharing target.
+2026-10-09T10:45:02.982176-03:00 curzas-alumno-5225 systemd[2062]: Started org.gnome.SettingsDaemon.A11ySettings.service - GNOME accessibility service.
+2026-10-09T10:45:02.982478-03:00 curzas-alumno-5225 systemd[2062]: Reached target org.gnome.SettingsDaemon.A11ySettings.target - GNOME accessibility target.
+2026-10-09T10:45:03.090429-03:00 curzas-alumno-5225 systemd[2062]: Started org.gnome.SettingsDaemon.ScreensaverProxy.service - GNOME FreeDesktop screensaver service.
+2026-10-09T10:45:03.096102-03:00 curzas-alumno-5225 systemd[2062]: Reached target org.gnome.SettingsDaemon.ScreensaverProxy.target - GNOME FreeDesktop screensaver target.
+2026-10-09T10:45:03.101603-03:00 curzas-alumno-5225 kernel: rfkill: input handler disabled
+2026-10-09T10:45:03.102917-03:00 curzas-alumno-5225 systemd[2062]: Started org.gnome.SettingsDaemon.Rfkill.service - GNOME RFKill support service.
+2026-10-09T10:45:03.103134-03:00 curzas-alumno-5225 systemd[2062]: Reached target org.gnome.SettingsDaemon.Rfkill.target - GNOME RFKill support target.
+2026-10-09T10:45:03.125925-03:00 curzas-alumno-5225 systemd[2062]: Started org.gnome.SettingsDaemon.Sound.service - GNOME sound sample caching service.
+2026-10-09T10:45:03.126112-03:00 curzas-alumno-5225 systemd[2062]: Reached target org.gnome.SettingsDaemon.Sound.target - GNOME sound sample caching target.
+2026-10-09T10:45:03.168273-03:00 curzas-alumno-5225 systemd[2062]: Started org.gnome.SettingsDaemon.PrintNotifications.service - GNOME printer notifications service.
+2026-10-09T10:45:03.168566-03:00 curzas-alumno-5225 systemd[2062]: Reached target org.gnome.SettingsDaemon.PrintNotifications.target - GNOME printer notifications target.
+2026-10-09T10:45:03.186089-03:00 curzas-alumno-5225 dbus-daemon[2100]: [session uid=1000 pid=2100] Successfully activated service 'org.gnome.Shell.Notifications'
+2026-10-09T10:45:03.203993-03:00 curzas-alumno-5225 dbus-daemon[2100]: [session uid=1000 pid=2100] Activating service name='org.freedesktop.portal.IBus' requested by ':1.46' (uid=1000 pid=2419 comm="/usr/bin/ibus-daemon --panel disable" label="unconfined")
+2026-10-09T10:45:03.213188-03:00 curzas-alumno-5225 systemd[2062]: Started org.freedesktop.IBus.session.GNOME.service - IBus Daemon for GNOME.
+2026-10-09T10:45:03.240744-03:00 curzas-alumno-5225 dbus-daemon[2100]: [session uid=1000 pid=2100] Successfully activated service 'org.gtk.vfs.UDisks2VolumeMonitor'
+2026-10-09T10:45:03.241002-03:00 curzas-alumno-5225 systemd[2062]: Started gvfs-udisks2-volume-monitor.service - Virtual filesystem service - disk device monitor.
+2026-10-09T10:45:03.246285-03:00 curzas-alumno-5225 dbus-daemon[2100]: [session uid=1000 pid=2100] Activating via systemd: service name='org.gtk.vfs.MTPVolumeMonitor' unit='gvfs-mtp-volume-monitor.service' requested by ':1.32' (uid=1000 pid=2309 comm="/usr/bin/gnome-shell" label="unconfined")
+2026-10-09T10:45:03.256385-03:00 curzas-alumno-5225 dbus-daemon[2100]: [session uid=1000 pid=2100] Successfully activated service 'org.freedesktop.portal.IBus'
+2026-10-09T10:45:03.262067-03:00 curzas-alumno-5225 systemd[2062]: Starting gvfs-mtp-volume-monitor.service - Virtual filesystem service - Media Transfer Protocol monitor...
+2026-10-09T10:45:03.375871-03:00 curzas-alumno-5225 dbus-daemon[2100]: [session uid=1000 pid=2100] Successfully activated service 'org.gtk.vfs.MTPVolumeMonitor'
+2026-10-09T10:45:03.378095-03:00 curzas-alumno-5225 dbus-daemon[2100]: [session uid=1000 pid=2100] Activating via systemd: service name='org.gtk.vfs.GoaVolumeMonitor' unit='gvfs-goa-volume-monitor.service' requested by ':1.32' (uid=1000 pid=2309 comm="/usr/bin/gnome-shell" label="unconfined")
+2026-10-09T10:45:03.378265-03:00 curzas-alumno-5225 systemd[2062]: Started gvfs-mtp-volume-monitor.service - Virtual filesystem service - Media Transfer Protocol monitor.
+2026-10-09T10:45:03.471443-03:00 curzas-alumno-5225 systemd[2062]: Starting gvfs-goa-volume-monitor.service - Virtual filesystem service - GNOME Online Accounts monitor...
+2026-10-09T10:45:03.592421-03:00 curzas-alumno-5225 dbus-daemon[2100]: [session uid=1000 pid=2100] Activating service name='org.gnome.OnlineAccounts' requested by ':1.66' (uid=1000 pid=2649 comm="/usr/libexec/gvfs-goa-volume-monitor" label="unconfined")
+2026-10-09T10:45:03.723116-03:00 curzas-alumno-5225 goa-daemon[2659]: goa-daemon version 3.50.4 starting
+2026-10-09T10:45:03.728508-03:00 curzas-alumno-5225 dbus-daemon[2100]: [session uid=1000 pid=2100] Activating service name='org.gnome.Identity' requested by ':1.67' (uid=1000 pid=2659 comm="/usr/libexec/goa-daemon" label="unconfined")
+2026-10-09T10:45:03.736973-03:00 curzas-alumno-5225 dbus-daemon[2100]: [session uid=1000 pid=2100] Successfully activated service 'org.gnome.OnlineAccounts'
+2026-10-09T10:45:03.740664-03:00 curzas-alumno-5225 dbus-daemon[2100]: [session uid=1000 pid=2100] Successfully activated service 'org.gtk.vfs.GoaVolumeMonitor'
+2026-10-09T10:45:03.740948-03:00 curzas-alumno-5225 systemd[2062]: Started gvfs-goa-volume-monitor.service - Virtual filesystem service - GNOME Online Accounts monitor.
+2026-10-09T10:45:03.743269-03:00 curzas-alumno-5225 dbus-daemon[2100]: [session uid=1000 pid=2100] Activating via systemd: service name='org.gtk.vfs.AfcVolumeMonitor' unit='gvfs-afc-volume-monitor.service' requested by ':1.32' (uid=1000 pid=2309 comm="/usr/bin/gnome-shell" label="unconfined")
+2026-10-09T10:45:03.752439-03:00 curzas-alumno-5225 systemd[2062]: Starting gvfs-afc-volume-monitor.service - Virtual filesystem service - Apple File Conduit monitor...
+2026-10-09T10:45:03.776565-03:00 curzas-alumno-5225 dbus-daemon[2100]: [session uid=1000 pid=2100] Successfully activated service 'org.gnome.Identity'
+2026-10-09T10:45:03.828828-03:00 curzas-alumno-5225 dbus-daemon[2100]: [session uid=1000 pid=2100] Successfully activated service 'org.gnome.evolution.dataserver.Sources5'
+2026-10-09T10:45:03.829394-03:00 curzas-alumno-5225 systemd[2062]: Started evolution-source-registry.service - Evolution source registry.
+2026-10-09T10:45:03.845796-03:00 curzas-alumno-5225 dbus-daemon[2100]: [session uid=1000 pid=2100] Activating via systemd: service name='org.gnome.evolution.dataserver.Calendar8' unit='evolution-calendar-factory.service' requested by ':1.39' (uid=1000 pid=2390 comm="/usr/libexec/gnome-shell-calendar-server" label="unconfined")
+2026-10-09T10:45:03.849094-03:00 curzas-alumno-5225 dbus-daemon[2100]: [session uid=1000 pid=2100] Successfully activated service 'org.gtk.vfs.AfcVolumeMonitor'
+2026-10-09T10:45:03.851250-03:00 curzas-alumno-5225 dbus-daemon[2100]: [session uid=1000 pid=2100] Activating via systemd: service name='org.gtk.vfs.GPhoto2VolumeMonitor' unit='gvfs-gphoto2-volume-monitor.service' requested by ':1.32' (uid=1000 pid=2309 comm="/usr/bin/gnome-shell" label="unconfined")
+2026-10-09T10:45:03.864857-03:00 curzas-alumno-5225 systemd[2062]: Started gvfs-afc-volume-monitor.service - Virtual filesystem service - Apple File Conduit monitor.
+2026-10-09T10:45:03.878359-03:00 curzas-alumno-5225 systemd[2062]: Starting evolution-calendar-factory.service - Evolution calendar service...
+2026-10-09T10:45:03.883473-03:00 curzas-alumno-5225 systemd[2062]: Starting gvfs-gphoto2-volume-monitor.service - Virtual filesystem service - digital camera monitor...
+2026-10-09T10:45:03.985601-03:00 curzas-alumno-5225 dbus-daemon[2100]: [session uid=1000 pid=2100] Successfully activated service 'org.gtk.vfs.GPhoto2VolumeMonitor'
+2026-10-09T10:45:03.986081-03:00 curzas-alumno-5225 systemd[2062]: Started gvfs-gphoto2-volume-monitor.service - Virtual filesystem service - digital camera monitor.
+2026-10-09T10:45:04.091678-03:00 curzas-alumno-5225 gnome-shell[2692]: VMware: No 3D enabled (0, Success).
+2026-10-09T10:45:04.105809-03:00 curzas-alumno-5225 dbus-daemon[2100]: [session uid=1000 pid=2100] Successfully activated service 'org.gnome.Shell.CalendarServer'
+2026-10-09T10:45:04.110662-03:00 curzas-alumno-5225 gnome-shell[2692]: libEGL warning: egl: failed to create dri2 screen
+2026-10-09T10:45:04.110723-03:00 curzas-alumno-5225 gnome-shell[2692]: VMware: No 3D enabled (0, Success).
+2026-10-09T10:45:04.110764-03:00 curzas-alumno-5225 gnome-shell[2692]: libEGL warning: egl: failed to create dri2 screen
+2026-10-09T10:45:04.114666-03:00 curzas-alumno-5225 gnome-shell[2692]: VMware: No 3D enabled (0, Success).
+2026-10-09T10:45:04.114742-03:00 curzas-alumno-5225 gnome-shell[2692]: libEGL warning: egl: failed to create dri2 screen
+2026-10-09T10:45:04.158761-03:00 curzas-alumno-5225 dbus-daemon[2100]: [session uid=1000 pid=2100] Successfully activated service 'org.gnome.evolution.dataserver.Calendar8'
+2026-10-09T10:45:04.159337-03:00 curzas-alumno-5225 systemd[2062]: Started evolution-calendar-factory.service - Evolution calendar service.
+2026-10-09T10:45:04.161634-03:00 curzas-alumno-5225 gnome-shell[2309]: Error looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation
+2026-10-09T10:45:04.172079-03:00 curzas-alumno-5225 dbus-daemon[2100]: [session uid=1000 pid=2100] Activating via systemd: service name='org.gnome.evolution.dataserver.AddressBook10' unit='evolution-addressbook-factory.service' requested by ':1.70' (uid=1000 pid=2683 comm="/usr/libexec/evolution-calendar-factory" label="unconfined")
+2026-10-09T10:45:04.193125-03:00 curzas-alumno-5225 systemd[2062]: Starting evolution-addressbook-factory.service - Evolution address book service...
+2026-10-09T10:45:04.311370-03:00 curzas-alumno-5225 kernel: /dev/sr0: Can't open blockdev
+2026-10-09T10:45:04.318446-03:00 curzas-alumno-5225 kernel: ISO 9660 Extensions: Microsoft Joliet Level 3
+2026-10-09T10:45:04.327421-03:00 curzas-alumno-5225 kernel: ISO 9660 Extensions: RRIP_1991A
+2026-10-09T10:45:04.328544-03:00 curzas-alumno-5225 udisksd[919]: Mounted /dev/sr0 at /media/gisellah/VBox_GAs_7.2.16 on behalf of uid 1000
+2026-10-09T10:45:04.428181-03:00 curzas-alumno-5225 dbus-daemon[2100]: [session uid=1000 pid=2100] Successfully activated service 'org.gnome.evolution.dataserver.AddressBook10'
+2026-10-09T10:45:04.428744-03:00 curzas-alumno-5225 systemd[2062]: Started evolution-addressbook-factory.service - Evolution address book service.
+2026-10-09T10:45:04.508047-03:00 curzas-alumno-5225 NetworkManager[1221]: <info>  [1791553504.5077] agent-manager: agent[8309249328689543,:1.77/org.gnome.Shell.NetworkAgent/1000]: agent registered
+2026-10-09T10:45:04.691276-03:00 curzas-alumno-5225 dbus-daemon[2100]: [session uid=1000 pid=2100] Activating via systemd: service name='ca.desrt.dconf' unit='dconf.service' requested by ':1.32' (uid=1000 pid=2309 comm="/usr/bin/gnome-shell" label="unconfined")
+2026-10-09T10:45:04.701172-03:00 curzas-alumno-5225 systemd[2062]: Starting dconf.service - User preferences database...
+2026-10-09T10:45:04.740813-03:00 curzas-alumno-5225 dbus-daemon[2100]: [session uid=1000 pid=2100] Successfully activated service 'ca.desrt.dconf'
+2026-10-09T10:45:04.741373-03:00 curzas-alumno-5225 systemd[2062]: Started dconf.service - User preferences database.
+2026-10-09T10:45:04.753322-03:00 curzas-alumno-5225 dbus-daemon[885]: [system] Activating via systemd: service name='org.freedesktop.GeoClue2' unit='geoclue.service' requested by ':1.77' (uid=1000 pid=2309 comm="/usr/bin/gnome-shell" label="unconfined")
+2026-10-09T10:45:04.757707-03:00 curzas-alumno-5225 systemd[1]: Starting geoclue.service - Location Lookup Service...
+2026-10-09T10:45:04.859394-03:00 curzas-alumno-5225 dbus-daemon[885]: [system] Successfully activated service 'org.freedesktop.GeoClue2'
+2026-10-09T10:45:04.859471-03:00 curzas-alumno-5225 systemd[1]: Started geoclue.service - Location Lookup Service.
+2026-10-09T10:45:04.953275-03:00 curzas-alumno-5225 gnome-shell[2309]: Failed to import DBusMenu, quicklists are not available: Error: Requiring Dbusmenu, version none: Typelib file for namespace 'Dbusmenu' (any version) not found
+2026-10-09T10:45:04.955585-03:00 curzas-alumno-5225 gnome-shell[2309]: message repeated 2 times: [ Failed to import DBusMenu, quicklists are not available: Error: Requiring Dbusmenu, version none: Typelib file for namespace 'Dbusmenu' (any version) not found]
+2026-10-09T10:45:04.966794-03:00 curzas-alumno-5225 dbus-daemon[2100]: [session uid=1000 pid=2100] Activating service name='org.freedesktop.FileManager1' requested by ':1.32' (uid=1000 pid=2309 comm="/usr/bin/gnome-shell" label="unconfined")
+2026-10-09T10:45:04.969051-03:00 curzas-alumno-5225 dbus-daemon[2100]: [session uid=1000 pid=2100] Activating via systemd: service name='org.gtk.vfs.Metadata' unit='gvfs-metadata.service' requested by ':1.32' (uid=1000 pid=2309 comm="/usr/bin/gnome-shell" label="unconfined")
+2026-10-09T10:45:04.997452-03:00 curzas-alumno-5225 systemd[2062]: Starting gvfs-metadata.service - Virtual filesystem metadata service...
+2026-10-09T10:45:05.068467-03:00 curzas-alumno-5225 dbus-daemon[2100]: [session uid=1000 pid=2100] Successfully activated service 'org.gtk.vfs.Metadata'
+2026-10-09T10:45:05.068755-03:00 curzas-alumno-5225 systemd[2062]: Started gvfs-metadata.service - Virtual filesystem metadata service.
+2026-10-09T10:45:05.118706-03:00 curzas-alumno-5225 gnome-shell[2692]: Failed to initialize glamor, falling back to sw
+2026-10-09T10:45:05.137890-03:00 curzas-alumno-5225 gnome-shell[2692]: VMware: No 3D enabled (0, Success).
+2026-10-09T10:45:05.156677-03:00 curzas-alumno-5225 gnome-shell[2692]: VMware: No 3D enabled (0, Success).
+2026-10-09T10:45:05.276902-03:00 curzas-alumno-5225 gnome-shell[2309]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+2026-10-09T10:45:05.277109-03:00 curzas-alumno-5225 gnome-shell[2309]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+2026-10-09T10:45:05.277209-03:00 curzas-alumno-5225 gnome-shell[2309]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+2026-10-09T10:45:05.277314-03:00 curzas-alumno-5225 gnome-shell[2309]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+2026-10-09T10:45:05.277420-03:00 curzas-alumno-5225 gnome-shell[2309]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+2026-10-09T10:45:05.277538-03:00 curzas-alumno-5225 gnome-shell[2309]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+2026-10-09T10:45:05.277631-03:00 curzas-alumno-5225 gnome-shell[2309]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+2026-10-09T10:45:05.277755-03:00 curzas-alumno-5225 gnome-shell[2309]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+2026-10-09T10:45:05.277868-03:00 curzas-alumno-5225 gnome-shell[2309]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+2026-10-09T10:45:05.278001-03:00 curzas-alumno-5225 gnome-shell[2309]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+2026-10-09T10:45:05.278086-03:00 curzas-alumno-5225 gnome-shell[2309]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+2026-10-09T10:45:05.278189-03:00 curzas-alumno-5225 gnome-shell[2309]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+2026-10-09T10:45:05.278296-03:00 curzas-alumno-5225 gnome-shell[2309]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+2026-10-09T10:45:05.278390-03:00 curzas-alumno-5225 gnome-shell[2309]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+2026-10-09T10:45:05.278486-03:00 curzas-alumno-5225 gnome-shell[2309]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+2026-10-09T10:45:05.280310-03:00 curzas-alumno-5225 gnome-shell[2309]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+2026-10-09T10:45:05.280332-03:00 curzas-alumno-5225 gnome-shell[2309]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+2026-10-09T10:45:05.280345-03:00 curzas-alumno-5225 gnome-shell[2309]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+2026-10-09T10:45:05.353721-03:00 curzas-alumno-5225 gnome-shell[2787]: The XKEYBOARD keymap compiler (xkbcomp) reports:
+2026-10-09T10:45:05.353954-03:00 curzas-alumno-5225 gnome-shell[2787]: > Warning:          Could not resolve keysym XF86CameraAccessEnable
+2026-10-09T10:45:05.354046-03:00 curzas-alumno-5225 gnome-shell[2787]: > Warning:          Could not resolve keysym XF86CameraAccessDisable
+2026-10-09T10:45:05.354125-03:00 curzas-alumno-5225 gnome-shell[2787]: > Warning:          Could not resolve keysym XF86CameraAccessToggle
+2026-10-09T10:45:05.354226-03:00 curzas-alumno-5225 gnome-shell[2787]: > Warning:          Could not resolve keysym XF86NextElement
+2026-10-09T10:45:05.354312-03:00 curzas-alumno-5225 gnome-shell[2787]: > Warning:          Could not resolve keysym XF86PreviousElement
+2026-10-09T10:45:05.354407-03:00 curzas-alumno-5225 gnome-shell[2787]: > Warning:          Could not resolve keysym XF86AutopilotEngageToggle
+2026-10-09T10:45:05.354496-03:00 curzas-alumno-5225 gnome-shell[2787]: > Warning:          Could not resolve keysym XF86MarkWaypoint
+2026-10-09T10:45:05.354577-03:00 curzas-alumno-5225 gnome-shell[2787]: > Warning:          Could not resolve keysym XF86Sos
+2026-10-09T10:45:05.354652-03:00 curzas-alumno-5225 gnome-shell[2787]: > Warning:          Could not resolve keysym XF86NavChart
+2026-10-09T10:45:05.354734-03:00 curzas-alumno-5225 gnome-shell[2787]: > Warning:          Could not resolve keysym XF86FishingChart
+2026-10-09T10:45:05.354808-03:00 curzas-alumno-5225 gnome-shell[2787]: > Warning:          Could not resolve keysym XF86SingleRangeRadar
+2026-10-09T10:45:05.354888-03:00 curzas-alumno-5225 gnome-shell[2787]: > Warning:          Could not resolve keysym XF86DualRangeRadar
+2026-10-09T10:45:05.354963-03:00 curzas-alumno-5225 gnome-shell[2787]: > Warning:          Could not resolve keysym XF86RadarOverlay
+2026-10-09T10:45:05.355043-03:00 curzas-alumno-5225 gnome-shell[2787]: > Warning:          Could not resolve keysym XF86TraditionalSonar
+2026-10-09T10:45:05.355117-03:00 curzas-alumno-5225 gnome-shell[2787]: > Warning:          Could not resolve keysym XF86ClearvuSonar
+2026-10-09T10:45:05.355191-03:00 curzas-alumno-5225 gnome-shell[2787]: > Warning:          Could not resolve keysym XF86SidevuSonar
+2026-10-09T10:45:05.355265-03:00 curzas-alumno-5225 gnome-shell[2787]: > Warning:          Could not resolve keysym XF86NavInfo
+2026-10-09T10:45:05.355936-03:00 curzas-alumno-5225 gnome-shell[2787]: Errors from xkbcomp are not fatal to the X server
+2026-10-09T10:45:05.516844-03:00 curzas-alumno-5225 gnome-shell[2309]: GFileInfo created without standard::icon
+2026-10-09T10:45:05.517015-03:00 curzas-alumno-5225 gnome-shell[2309]: file ../../../gio/gfileinfo.c: line 1765 (g_file_info_get_icon): should not be reached
+2026-10-09T10:45:05.521040-03:00 curzas-alumno-5225 dbus-daemon[2100]: [session uid=1000 pid=2100] Successfully activated service 'org.gnome.Shell.Screencast'
+2026-10-09T10:45:05.531433-03:00 curzas-alumno-5225 gnome-shell[2309]: GNOME Shell started at Fri Oct 09 2026 10:45:02 GMT-0300 (hora estándar de Argentina)
+2026-10-09T10:45:05.532754-03:00 curzas-alumno-5225 gnome-shell[2309]: Registering session with GDM
+2026-10-09T10:45:05.548519-03:00 curzas-alumno-5225 gnome-shell[2309]: Launching DING process
+2026-10-09T10:45:05.559816-03:00 curzas-alumno-5225 gsd-print-notif[1721]: Error releasing name org.gnome.SettingsDaemon.PrintNotifications: La conexión está cerrada
+2026-10-09T10:45:05.562140-03:00 curzas-alumno-5225 gsd-sound[1737]: Error releasing name org.gnome.SettingsDaemon.Sound: La conexión está cerrada
+2026-10-09T10:45:05.565488-03:00 curzas-alumno-5225 gnome-shell[1642]: Connection to xwayland lost
+2026-10-09T10:45:05.565617-03:00 curzas-alumno-5225 gnome-shell[1642]: Xwayland terminated, exiting since it was mandatory
+2026-10-09T10:45:05.565776-03:00 curzas-alumno-5225 gnome-shell[1642]: (../src/core/meta-context.c:542):meta_context_terminate: runtime check failed: (g_main_loop_is_running (priv->main_loop))
+2026-10-09T10:45:05.565958-03:00 curzas-alumno-5225 gnome-shell[1642]: JS ERROR: Gio.IOErrorEnum: Xwayland exited unexpectedly#012@resource:///org/gnome/shell/ui/init.js:21:20
+2026-10-09T10:45:05.566052-03:00 curzas-alumno-5225 gnome-shell[1642]: Execution of main.js threw exception: Module resource:///org/gnome/shell/ui/init.js threw an exception
+2026-10-09T10:45:05.569600-03:00 curzas-alumno-5225 gsd-screensaver[1734]: Error releasing name org.freedesktop.ScreenSaver: La conexión está cerrada
+2026-10-09T10:45:05.572435-03:00 curzas-alumno-5225 gsd-sharing[1710]: Error releasing name org.gnome.SettingsDaemon.Sharing: La conexión está cerrada
+2026-10-09T10:45:05.577789-03:00 curzas-alumno-5225 gsd-rfkill[1724]: Error releasing name org.gnome.SettingsDaemon.Rfkill: La conexión está cerrada
+2026-10-09T10:45:05.663434-03:00 curzas-alumno-5225 nautilus[2773]: Connecting to org.freedesktop.Tracker3.Miner.Files
+2026-10-09T10:45:05.671079-03:00 curzas-alumno-5225 dbus-daemon[2100]: [session uid=1000 pid=2100] Successfully activated service 'org.freedesktop.FileManager1'
+2026-10-09T10:45:05.721407-03:00 curzas-alumno-5225 systemd[1]: session-c1.scope: Deactivated successfully.
+2026-10-09T10:45:05.727852-03:00 curzas-alumno-5225 systemd[2062]: Reached target gnome-session-x11-services.target - GNOME session X11 services.
+2026-10-09T10:45:05.727913-03:00 curzas-alumno-5225 systemd[1]: session-c1.scope: Consumed 3.945s CPU time.
+2026-10-09T10:45:05.731305-03:00 curzas-alumno-5225 systemd[2062]: Starting org.gnome.SettingsDaemon.XSettings.service - GNOME XSettings service...
+2026-10-09T10:45:05.776763-03:00 curzas-alumno-5225 gdm3: Gdm: Child process -1562 was already dead.
+2026-10-09T10:45:05.779854-03:00 curzas-alumno-5225 gdm3: Gdm: on_display_removed: assertion 'GDM_IS_REMOTE_DISPLAY (display)' failed
+2026-10-09T10:45:05.817055-03:00 curzas-alumno-5225 systemd[2062]: Started org.gnome.SettingsDaemon.Keyboard.service - GNOME keyboard configuration service.
+2026-10-09T10:45:05.817412-03:00 curzas-alumno-5225 systemd[2062]: Reached target org.gnome.SettingsDaemon.Keyboard.target - GNOME keyboard configuration target.
+2026-10-09T10:45:05.819294-03:00 curzas-alumno-5225 systemd[2062]: Started org.gnome.SettingsDaemon.Color.service - GNOME color management service.
+2026-10-09T10:45:05.819416-03:00 curzas-alumno-5225 systemd[2062]: Reached target org.gnome.SettingsDaemon.Color.target - GNOME color management target.
+2026-10-09T10:45:05.837446-03:00 curzas-alumno-5225 gnome-shell[2856]: The XKEYBOARD keymap compiler (xkbcomp) reports:
+2026-10-09T10:45:05.837604-03:00 curzas-alumno-5225 gnome-shell[2856]: > Warning:          Unsupported maximum keycode 708, clipping.
+2026-10-09T10:45:05.837706-03:00 curzas-alumno-5225 gnome-shell[2856]: >                   X11 cannot support keycodes above 255.
+2026-10-09T10:45:05.843439-03:00 curzas-alumno-5225 dbus-daemon[885]: [system] Activating via systemd: service name='org.freedesktop.locale1' unit='dbus-org.freedesktop.locale1.service' requested by ':1.97' (uid=1000 pid=2424 comm="/usr/libexec/gsd-keyboard" label="unconfined")
+2026-10-09T10:45:05.858691-03:00 curzas-alumno-5225 systemd[1]: Starting systemd-localed.service - Locale Service...
+2026-10-09T10:45:05.858778-03:00 curzas-alumno-5225 gnome-shell[2856]: > Warning:          Could not resolve keysym XF86CameraAccessEnable
+2026-10-09T10:45:05.858806-03:00 curzas-alumno-5225 gnome-shell[2856]: > Warning:          Could not resolve keysym XF86CameraAccessDisable
+2026-10-09T10:45:05.858818-03:00 curzas-alumno-5225 gnome-shell[2856]: > Warning:          Could not resolve keysym XF86CameraAccessToggle
+2026-10-09T10:45:05.858830-03:00 curzas-alumno-5225 gnome-shell[2856]: > Warning:          Could not resolve keysym XF86NextElement
+2026-10-09T10:45:05.858851-03:00 curzas-alumno-5225 gnome-shell[2856]: > Warning:          Could not resolve keysym XF86PreviousElement
+2026-10-09T10:45:05.858862-03:00 curzas-alumno-5225 gnome-shell[2856]: > Warning:          Could not resolve keysym XF86AutopilotEngageToggle
+2026-10-09T10:45:05.858874-03:00 curzas-alumno-5225 gnome-shell[2856]: > Warning:          Could not resolve keysym XF86MarkWaypoint
+2026-10-09T10:45:05.858885-03:00 curzas-alumno-5225 gnome-shell[2856]: > Warning:          Could not resolve keysym XF86Sos
+2026-10-09T10:45:05.858897-03:00 curzas-alumno-5225 gnome-shell[2856]: > Warning:          Could not resolve keysym XF86NavChart
+2026-10-09T10:45:05.858908-03:00 curzas-alumno-5225 gnome-shell[2856]: > Warning:          Could not resolve keysym XF86FishingChart
+2026-10-09T10:45:05.858919-03:00 curzas-alumno-5225 gnome-shell[2856]: > Warning:          Could not resolve keysym XF86SingleRangeRadar
+2026-10-09T10:45:05.858930-03:00 curzas-alumno-5225 gnome-shell[2856]: > Warning:          Could not resolve keysym XF86DualRangeRadar
+2026-10-09T10:45:05.858942-03:00 curzas-alumno-5225 gnome-shell[2856]: > Warning:          Could not resolve keysym XF86RadarOverlay
+2026-10-09T10:45:05.858953-03:00 curzas-alumno-5225 gnome-shell[2856]: > Warning:          Could not resolve keysym XF86TraditionalSonar
+2026-10-09T10:45:05.858964-03:00 curzas-alumno-5225 gnome-shell[2856]: > Warning:          Could not resolve keysym XF86ClearvuSonar
+2026-10-09T10:45:05.858975-03:00 curzas-alumno-5225 gnome-shell[2856]: > Warning:          Could not resolve keysym XF86SidevuSonar
+2026-10-09T10:45:05.858986-03:00 curzas-alumno-5225 gnome-shell[2856]: > Warning:          Could not resolve keysym XF86NavInfo
+2026-10-09T10:45:05.858997-03:00 curzas-alumno-5225 gnome-shell[2856]: Errors from xkbcomp are not fatal to the X server
+2026-10-09T10:45:05.964832-03:00 curzas-alumno-5225 systemd[2062]: Started org.gnome.SettingsDaemon.Wacom.service - GNOME Wacom tablet support service.
+2026-10-09T10:45:05.964909-03:00 curzas-alumno-5225 systemd[2062]: Reached target org.gnome.SettingsDaemon.Wacom.target - GNOME Wacom tablet support target.
+2026-10-09T10:45:05.987739-03:00 curzas-alumno-5225 dbus-daemon[885]: [system] Successfully activated service 'org.freedesktop.locale1'
+2026-10-09T10:45:05.987797-03:00 curzas-alumno-5225 systemd[1]: Started systemd-localed.service - Locale Service.
+2026-10-09T10:45:05.994104-03:00 curzas-alumno-5225 systemd[2062]: Started org.gnome.SettingsDaemon.MediaKeys.service - GNOME keyboard shortcuts service.
+2026-10-09T10:45:05.994153-03:00 curzas-alumno-5225 systemd[2062]: Reached target org.gnome.SettingsDaemon.MediaKeys.target - GNOME keyboard shortcuts target.
+2026-10-09T10:45:06.001722-03:00 curzas-alumno-5225 systemd[2062]: Started org.gnome.SettingsDaemon.Power.service - GNOME power management service.
+2026-10-09T10:45:06.001927-03:00 curzas-alumno-5225 systemd[2062]: Reached target org.gnome.SettingsDaemon.Power.target - GNOME power management target.
+2026-10-09T10:45:06.537867-03:00 curzas-alumno-5225 rtkit-daemon[1586]: Successfully made thread 2334 of process 2309 owned by '1000' high priority at nice level 0.
+2026-10-09T10:45:06.538048-03:00 curzas-alumno-5225 rtkit-daemon[1586]: Supervising 15 threads of 9 processes of 2 users.
+2026-10-09T10:45:06.549033-03:00 curzas-alumno-5225 rtkit-daemon[1586]: Supervising 14 threads of 8 processes of 2 users.
+2026-10-09T10:45:06.549714-03:00 curzas-alumno-5225 rtkit-daemon[1586]: Supervising 14 threads of 8 processes of 2 users.
+2026-10-09T10:45:06.559277-03:00 curzas-alumno-5225 rtkit-daemon[1586]: Successfully made thread 2334 of process 2309 owned by '1000' RT at priority 20.
+2026-10-09T10:45:06.559436-03:00 curzas-alumno-5225 rtkit-daemon[1586]: Supervising 15 threads of 9 processes of 2 users.
+2026-10-09T10:45:06.702532-03:00 curzas-alumno-5225 dbus-daemon[2100]: [session uid=1000 pid=2100] Activating service name='org.gnome.ScreenSaver' requested by ':1.56' (uid=1000 pid=2426 comm="/usr/libexec/gsd-power" label="unconfined")
+2026-10-09T10:45:06.707524-03:00 curzas-alumno-5225 gsd-media-keys[2425]: Failed to grab accelerator for keybinding settings:hibernate
+2026-10-09T10:45:06.707713-03:00 curzas-alumno-5225 gsd-media-keys[2425]: Failed to grab accelerator for keybinding settings:playback-repeat
+2026-10-09T10:45:06.827714-03:00 curzas-alumno-5225 dbus-daemon[2100]: [session uid=1000 pid=2100] Activating via systemd: service name='org.freedesktop.portal.Desktop' unit='xdg-desktop-portal.service' requested by ':1.78' (uid=1000 pid=2773 comm="/usr/bin/nautilus --gapplication-service" label="unconfined")
+2026-10-09T10:45:06.847602-03:00 curzas-alumno-5225 systemd[2062]: Starting xdg-desktop-portal.service - Portal service...
+2026-10-09T10:45:07.030690-03:00 curzas-alumno-5225 dbus-daemon[2100]: [session uid=1000 pid=2100] Successfully activated service 'org.gnome.ScreenSaver'
+2026-10-09T10:45:07.125900-03:00 curzas-alumno-5225 dbus-daemon[2100]: [session uid=1000 pid=2100] Activating via systemd: service name='org.freedesktop.impl.portal.desktop.gnome' unit='xdg-desktop-portal-gnome.service' requested by ':1.91' (uid=1000 pid=2901 comm="/usr/libexec/xdg-desktop-portal" label="unconfined")
+2026-10-09T10:45:07.149104-03:00 curzas-alumno-5225 gnome-shell[2309]: DING: Detected async api for thumbnails
+2026-10-09T10:45:07.420657-03:00 curzas-alumno-5225 gnome-shell[2309]: DING: (gjs:2805): Gjs-WARNING **: 10:45:07.406: GLib.unix_signal_add has been moved to a separate platform-specific library. Please update your code to use GLibUnix.signal_add instead.
+2026-10-09T10:45:07.420906-03:00 curzas-alumno-5225 gnome-shell[2309]: DING: 0 DesktopManager() ["/usr/share/gnome-shell/extensions/ding@rastersoft.com/app/desktopManager.js":264:12]
+2026-10-09T10:45:07.421081-03:00 curzas-alumno-5225 gnome-shell[2309]: DING: 1 anonymous() ["/usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js":180:25]
+2026-10-09T10:45:07.421221-03:00 curzas-alumno-5225 gnome-shell[2309]: DING: 2 anonymous() ["/usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js":197:20]
+2026-10-09T10:45:07.421340-03:00 curzas-alumno-5225 gnome-shell[2309]: DING: 3 <TOP LEVEL> ["/usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js":206:12]
+2026-10-09T10:45:07.578561-03:00 curzas-alumno-5225 gnome-shell[2309]: DING: ** Message: 10:45:07.473: Connecting to org.freedesktop.Tracker3.Miner.Files
+2026-10-09T10:45:07.679585-03:00 curzas-alumno-5225 gnome-shell[2309]: DING: DBus interface for Switcheroo control (net.hadess.SwitcherooControl) is now available.
+2026-10-09T10:45:07.782691-03:00 curzas-alumno-5225 gnome-shell[2309]: DING: DBus interface for Gvfs daemon (org.gtk.vfs.Metadata) is now available.
+2026-10-09T10:45:07.790615-03:00 curzas-alumno-5225 systemd[2062]: Started org.gnome.SettingsDaemon.XSettings.service - GNOME XSettings service.
+2026-10-09T10:45:07.790899-03:00 curzas-alumno-5225 systemd[2062]: Reached target gnome-session-x11-services-ready.target - GNOME session X11 services.
+2026-10-09T10:45:07.791126-03:00 curzas-alumno-5225 systemd[2062]: Reached target gnome-session.target - GNOME Session.
+2026-10-09T10:45:07.791305-03:00 curzas-alumno-5225 systemd[2062]: Reached target gnome-session-wayland@ubuntu.target - GNOME Wayland Session (session: ubuntu).
+2026-10-09T10:45:07.791402-03:00 curzas-alumno-5225 systemd[2062]: Reached target graphical-session.target - Current graphical user session.
+2026-10-09T10:45:07.791648-03:00 curzas-alumno-5225 systemd[2062]: gnome-initial-setup-first-login.service - GNOME Initial Setup was skipped because of an unmet condition check (ConditionPathExists=!/home/gisellah/.config/gnome-initial-setup-done).
+2026-10-09T10:45:07.794000-03:00 curzas-alumno-5225 systemd[2062]: Starting tracker-miner-fs-3.service - Tracker file system data miner...
+2026-10-09T10:45:07.796434-03:00 curzas-alumno-5225 systemd[2062]: Starting xdg-desktop-portal-gnome.service - Portal service (GNOME implementation)...
+2026-10-09T10:45:07.915251-03:00 curzas-alumno-5225 vboxclient.desktop[2471]: 13:45:07.915001 main      Session type is: VBGHDISPLAYSERVERTYPE_XWAYLAND
+2026-10-09T10:45:07.915416-03:00 curzas-alumno-5225 vboxclient.desktop[2471]: 13:45:07.915392 main      Service: Shared Clipboard
+2026-10-09T10:45:07.915543-03:00 curzas-alumno-5225 vboxclient.desktop[2471]: 13:45:07.915522 main      Daemonizing service ...
+2026-10-09T10:45:07.920573-03:00 curzas-alumno-5225 vboxclient.desktop[2945]: 13:45:07.920402 main     VBoxClient 7.2.16 r174877 (verbosity: 0) linux.amd64 (Aug 13 2026 21:29:06) release log
+2026-10-09T10:45:07.920648-03:00 curzas-alumno-5225 vboxclient.desktop[2945]: 13:45:07.920403 main     Log opened 2026-10-09T13:45:07.920398000Z
+2026-10-09T10:45:07.920719-03:00 curzas-alumno-5225 vboxclient.desktop[2945]: 13:45:07.920698 main     OS Product: Linux
+2026-10-09T10:45:07.920778-03:00 curzas-alumno-5225 vboxclient.desktop[2945]: 13:45:07.920760 main     OS Release: 7.0.0-34-generic
+2026-10-09T10:45:07.920854-03:00 curzas-alumno-5225 vboxclient.desktop[2945]: 13:45:07.920833 main     OS Version: #34~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep  4 15:38:29 UTC 2
+2026-10-09T10:45:07.920924-03:00 curzas-alumno-5225 vboxclient.desktop[2945]: 13:45:07.920905 main     Executable: /opt/VBoxGuestAdditions-7.2.16/bin/VBoxClient
+2026-10-09T10:45:07.920965-03:00 curzas-alumno-5225 vboxclient.desktop[2945]: 13:45:07.920905 main     Process ID: 2945
+2026-10-09T10:45:07.921001-03:00 curzas-alumno-5225 vboxclient.desktop[2945]: 13:45:07.920906 main     Package type: LINUX_64BITS_GENERIC
+2026-10-09T10:45:07.921056-03:00 curzas-alumno-5225 vboxclient.desktop[2945]: 13:45:07.921039 main      VBoxClient 7.2.16 r174877 started. Verbose level = 0
+2026-10-09T10:45:07.922754-03:00 curzas-alumno-5225 vboxclient.desktop[2945]: 13:45:07.922729 main      Session type is: VBGHDISPLAYSERVERTYPE_XWAYLAND
+2026-10-09T10:45:07.922876-03:00 curzas-alumno-5225 vboxclient.desktop[2945]: 13:45:07.922855 main      Service: Seamless Mode Support
+2026-10-09T10:45:07.923319-03:00 curzas-alumno-5225 vboxclient.desktop[2945]: 13:45:07.922921 main      Daemonizing service ...
+2026-10-09T10:45:07.933224-03:00 curzas-alumno-5225 vboxclient.desktop[2949]: 13:45:07.933004 main     VBoxClient 7.2.16 r174877 (verbosity: 0) linux.amd64 (Aug 13 2026 21:29:06) release log
+2026-10-09T10:45:07.933322-03:00 curzas-alumno-5225 vboxclient.desktop[2949]: 13:45:07.933005 main     Log opened 2026-10-09T13:45:07.933001000Z
+2026-10-09T10:45:07.934057-03:00 curzas-alumno-5225 vboxclient.desktop[2949]: 13:45:07.933332 main     OS Product: Linux
+2026-10-09T10:45:07.934101-03:00 curzas-alumno-5225 vboxclient.desktop[2949]: 13:45:07.933339 main     OS Release: 7.0.0-34-generic
+2026-10-09T10:45:07.934140-03:00 curzas-alumno-5225 vboxclient.desktop[2949]: 13:45:07.933342 main     OS Version: #34~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep  4 15:38:29 UTC 2
+2026-10-09T10:45:07.934182-03:00 curzas-alumno-5225 vboxclient.desktop[2949]: 13:45:07.933345 main     Executable: /opt/VBoxGuestAdditions-7.2.16/bin/VBoxClient
+2026-10-09T10:45:07.934226-03:00 curzas-alumno-5225 vboxclient.desktop[2949]: 13:45:07.933345 main     Process ID: 2949
+2026-10-09T10:45:07.934253-03:00 curzas-alumno-5225 vboxclient.desktop[2949]: 13:45:07.933346 main     Package type: LINUX_64BITS_GENERIC
+2026-10-09T10:45:07.934295-03:00 curzas-alumno-5225 vboxclient.desktop[2949]: 13:45:07.933351 main      VBoxClient 7.2.16 r174877 started. Verbose level = 0
+2026-10-09T10:45:07.942723-03:00 curzas-alumno-5225 vboxclient.desktop[2949]: 13:45:07.942689 main      Session type is: VBGHDISPLAYSERVERTYPE_XWAYLAND
+2026-10-09T10:45:07.942823-03:00 curzas-alumno-5225 vboxclient.desktop[2949]: 13:45:07.942803 main      Service: Drag'n'Drop
+2026-10-09T10:45:07.942954-03:00 curzas-alumno-5225 vboxclient.desktop[2949]: 13:45:07.942933 main      Daemonizing service ...
+2026-10-09T10:45:07.958648-03:00 curzas-alumno-5225 vboxclient.desktop[2954]: 13:45:07.958455 main     VBoxClient 7.2.16 r174877 (verbosity: 0) linux.amd64 (Aug 13 2026 21:29:06) release log
+2026-10-09T10:45:07.959330-03:00 curzas-alumno-5225 vboxclient.desktop[2954]: 13:45:07.958457 main     Log opened 2026-10-09T13:45:07.958452000Z
+2026-10-09T10:45:07.959382-03:00 curzas-alumno-5225 vboxclient.desktop[2954]: 13:45:07.958659 main     OS Product: Linux
+2026-10-09T10:45:07.959422-03:00 curzas-alumno-5225 vboxclient.desktop[2954]: 13:45:07.958665 main     OS Release: 7.0.0-34-generic
+2026-10-09T10:45:07.959469-03:00 curzas-alumno-5225 vboxclient.desktop[2954]: 13:45:07.958668 main     OS Version: #34~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep  4 15:38:29 UTC 2
+2026-10-09T10:45:07.959502-03:00 curzas-alumno-5225 vboxclient.desktop[2954]: 13:45:07.958672 main     Executable: /opt/VBoxGuestAdditions-7.2.16/bin/VBoxClient
+2026-10-09T10:45:07.959547-03:00 curzas-alumno-5225 vboxclient.desktop[2954]: 13:45:07.958672 main     Process ID: 2954
+2026-10-09T10:45:07.959595-03:00 curzas-alumno-5225 vboxclient.desktop[2954]: 13:45:07.958672 main     Package type: LINUX_64BITS_GENERIC
+2026-10-09T10:45:07.959626-03:00 curzas-alumno-5225 vboxclient.desktop[2954]: 13:45:07.958677 main      VBoxClient 7.2.16 r174877 started. Verbose level = 0
+2026-10-09T10:45:07.966843-03:00 curzas-alumno-5225 vboxclient.desktop[2954]: 13:45:07.966817 main      Session type is: VBGHDISPLAYSERVERTYPE_XWAYLAND
+2026-10-09T10:45:07.967290-03:00 curzas-alumno-5225 vboxclient.desktop[2954]: 13:45:07.966900 main      Service: VirtualBox host version check
+2026-10-09T10:45:07.967339-03:00 curzas-alumno-5225 vboxclient.desktop[2954]: 13:45:07.966948 main      Daemonizing service ...
+2026-10-09T10:45:07.975129-03:00 curzas-alumno-5225 vboxclient.desktop[2963]: 13:45:07.974933 main     VBoxClient 7.2.16 r174877 (verbosity: 0) linux.amd64 (Aug 13 2026 21:29:06) release log
+2026-10-09T10:45:07.975184-03:00 curzas-alumno-5225 vboxclient.desktop[2963]: 13:45:07.974935 main     Log opened 2026-10-09T13:45:07.974930000Z
+2026-10-09T10:45:07.975880-03:00 curzas-alumno-5225 vboxclient.desktop[2963]: 13:45:07.975848 main     OS Product: Linux
+2026-10-09T10:45:07.984925-03:00 curzas-alumno-5225 vboxclient.desktop[2963]: 13:45:07.984893 main     OS Release: 7.0.0-34-generic
+2026-10-09T10:45:07.985035-03:00 curzas-alumno-5225 vboxclient.desktop[2963]: 13:45:07.985008 main     OS Version: #34~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Sep  4 15:38:29 UTC 2
+2026-10-09T10:45:07.985112-03:00 curzas-alumno-5225 vboxclient.desktop[2963]: 13:45:07.985088 main     Executable: /opt/VBoxGuestAdditions-7.2.16/bin/VBoxClient
+2026-10-09T10:45:07.985152-03:00 curzas-alumno-5225 vboxclient.desktop[2963]: 13:45:07.985089 main     Process ID: 2963
+2026-10-09T10:45:07.985213-03:00 curzas-alumno-5225 vboxclient.desktop[2963]: 13:45:07.985090 main     Package type: LINUX_64BITS_GENERIC
+2026-10-09T10:45:07.985315-03:00 curzas-alumno-5225 vboxclient.desktop[2963]: 13:45:07.985288 main      VBoxClient 7.2.16 r174877 started. Verbose level = 0
+2026-10-09T10:45:08.016465-03:00 curzas-alumno-5225 vboxclient.desktop[2963]: 13:45:08.016403 main      Session type is: VBGHDISPLAYSERVERTYPE_XWAYLAND
+2026-10-09T10:45:08.016679-03:00 curzas-alumno-5225 vboxclient.desktop[2963]: 13:45:08.016646 main      Service: VMSVGA display assistant
+2026-10-09T10:45:08.017074-03:00 curzas-alumno-5225 vboxclient.desktop[2963]: 13:45:08.017048 main      Daemonizing service ...
+2026-10-09T10:45:08.225495-03:00 curzas-alumno-5225 gnome-shell[2309]: Received notification for window. 0 notifications remaining.
+2026-10-09T10:45:08.449085-03:00 curzas-alumno-5225 gnome-shell[2939]: libEGL warning: DRI3 error: Could not get DRI3 device
+2026-10-09T10:45:08.450460-03:00 curzas-alumno-5225 gnome-shell[2939]: libEGL warning: Ensure your X server supports DRI3 to get accelerated rendering
+2026-10-09T10:45:08.646120-03:00 curzas-alumno-5225 dbus-daemon[2100]: [session uid=1000 pid=2100] Successfully activated service 'org.freedesktop.impl.portal.desktop.gnome'
+2026-10-09T10:45:08.647171-03:00 curzas-alumno-5225 systemd[2062]: Started xdg-desktop-portal-gnome.service - Portal service (GNOME implementation).
+2026-10-09T10:45:08.778848-03:00 curzas-alumno-5225 systemd[2062]: Started tracker-miner-fs-3.service - Tracker file system data miner.
+2026-10-09T10:45:08.950614-03:00 curzas-alumno-5225 rtkit-daemon[1586]: Supervising 15 threads of 9 processes of 2 users.
+2026-10-09T10:45:08.954437-03:00 curzas-alumno-5225 rtkit-daemon[1586]: message repeated 2 times: [ Supervising 15 threads of 9 processes of 2 users.]
+2026-10-09T10:45:08.956006-03:00 curzas-alumno-5225 dbus-daemon[2100]: [session uid=1000 pid=2100] Activating via systemd: service name='org.freedesktop.impl.portal.desktop.gtk' unit='xdg-desktop-portal-gtk.service' requested by ':1.91' (uid=1000 pid=2901 comm="/usr/libexec/xdg-desktop-portal" label="unconfined")
+2026-10-09T10:45:08.989772-03:00 curzas-alumno-5225 systemd[2062]: Starting xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation)...
+2026-10-09T10:45:09.348614-03:00 curzas-alumno-5225 dbus-daemon[2100]: [session uid=1000 pid=2100] Successfully activated service 'org.freedesktop.impl.portal.desktop.gtk'
+2026-10-09T10:45:09.349060-03:00 curzas-alumno-5225 systemd[2062]: Started xdg-desktop-portal-gtk.service - Portal service (GTK/GNOME implementation).
+2026-10-09T10:45:09.424129-03:00 curzas-alumno-5225 tracker-miner-fs-3[3003]: (tracker-extract-3:3003): GLib-GIO-WARNING **: 10:45:09.423: Error creating IO channel for /proc/self/mountinfo: Argumento inválido (g-io-error-quark, 13)
+2026-10-09T10:45:09.456916-03:00 curzas-alumno-5225 dbus-daemon[2100]: [session uid=1000 pid=2100] Successfully activated service 'org.freedesktop.portal.Desktop'
+2026-10-09T10:45:09.457191-03:00 curzas-alumno-5225 systemd[2062]: Started xdg-desktop-portal.service - Portal service.
+2026-10-09T10:45:09.941140-03:00 curzas-alumno-5225 gnome-shell[2309]: DING: DBus interface for Nautilus (org.gnome.Nautilus.FileOperations2) is now available.
+2026-10-09T10:45:09.959076-03:00 curzas-alumno-5225 systemd[2062]: Started app-gnome-org.gnome.Terminal-3011.scope - Application launched by gnome-shell.
+2026-10-09T10:45:09.986363-03:00 curzas-alumno-5225 gnome-shell[2309]: DING: DBus interface for Nautilus (org.freedesktop.FileManager1) is now available.
+2026-10-09T10:45:10.076644-03:00 curzas-alumno-5225 gnome-shell[2309]: DING: GNOME nautilus 46.4
+2026-10-09T10:45:10.481261-03:00 curzas-alumno-5225 dbus-daemon[2100]: [session uid=1000 pid=2100] Activating via systemd: service name='org.gnome.Terminal' unit='gnome-terminal-server.service' requested by ':1.101' (uid=1000 pid=3019 comm="/usr/bin/gnome-terminal.real" label="unconfined")
+2026-10-09T10:45:10.502233-03:00 curzas-alumno-5225 systemd[2062]: Created slice app-org.gnome.Terminal.slice - Slice /app/org.gnome.Terminal.
+2026-10-09T10:45:10.507874-03:00 curzas-alumno-5225 systemd[2062]: Starting gnome-terminal-server.service - GNOME Terminal Server...
+2026-10-09T10:45:11.082460-03:00 curzas-alumno-5225 dbus-daemon[2100]: [session uid=1000 pid=2100] Successfully activated service 'org.gnome.Terminal'
+2026-10-09T10:45:11.083104-03:00 curzas-alumno-5225 systemd[2062]: Started gnome-terminal-server.service - GNOME Terminal Server.
+2026-10-09T10:45:11.627576-03:00 curzas-alumno-5225 gnome-shell[2309]: meta_window_set_stack_position_no_sync: assertion 'window->stack_position >= 0' failed
+2026-10-09T10:45:11.773139-03:00 curzas-alumno-5225 systemd[2062]: Started vte-spawn-b40822f5-676d-45d6-8093-30759f6170de.scope - VTE child process 3034 launched by gnome-terminal-server process 3025.
+2026-10-09T10:45:11.803397-03:00 curzas-alumno-5225 dbus-daemon[2100]: apparmor="DENIED" operation="dbus_method_call"  bus="session" path="/org/freedesktop/portal/desktop" interface="org.freedesktop.host.portal.Registry" member="Register" mask="send" name="org.freedesktop.portal.Desktop" pid=3009 label="snap.snapd-desktop-integration.snapd-desktop-integration" peer_pid=2901 peer_label="unconfined"
+2026-10-09T10:45:12.794247-03:00 curzas-alumno-5225 snapd-desktop-i[3009]: Failed to open display
+2026-10-09T10:45:12.797075-03:00 curzas-alumno-5225 snapd-desktop-integration.snapd-desktop-integration[2081]: Child process exited with value 256
+2026-10-09T10:45:12.800962-03:00 curzas-alumno-5225 systemd[2062]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+2026-10-09T10:45:12.802334-03:00 curzas-alumno-5225 systemd[2062]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Failed with result 'exit-code'.
+2026-10-09T10:45:12.803515-03:00 curzas-alumno-5225 systemd[2062]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Consumed 1.139s CPU time.
+2026-10-09T10:45:14.835851-03:00 curzas-alumno-5225 systemd[2062]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Scheduled restart job, restart counter is at 1.
+2026-10-09T10:45:14.843630-03:00 curzas-alumno-5225 systemd[2062]: Started snap.snapd-desktop-integration.snapd-desktop-integration.service - Service for snap application snapd-desktop-integration.snapd-desktop-integration.
+2026-10-09T10:45:15.063244-03:00 curzas-alumno-5225 dbus-daemon[2100]: apparmor="DENIED" operation="dbus_method_call"  bus="session" path="/org/freedesktop/portal/desktop" interface="org.freedesktop.host.portal.Registry" member="Register" mask="send" name="org.freedesktop.portal.Desktop" pid=3106 label="snap.snapd-desktop-integration.snapd-desktop-integration" peer_pid=2901 peer_label="unconfined"
+2026-10-09T10:45:15.494660-03:00 curzas-alumno-5225 snapd-desktop-i[3106]: New theme: gtk=Yaru-dark icon=Yaru-dark cursor=Yaru, sound=Yaru
+2026-10-09T10:45:15.498072-03:00 curzas-alumno-5225 snapd-desktop-i[3106]: All available theme snaps installed
+2026-10-09T10:45:15.837269-03:00 curzas-alumno-5225 systemd[1]: Stopping user@120.service - User Manager for UID 120...
+2026-10-09T10:45:15.851811-03:00 curzas-alumno-5225 systemd[1514]: Activating special unit exit.target...
+2026-10-09T10:45:15.853722-03:00 curzas-alumno-5225 systemd[1514]: Stopped target default.target - Main User Target.
+2026-10-09T10:45:15.853861-03:00 curzas-alumno-5225 systemd[1514]: Stopping dbus.service - D-Bus User Message Bus...
+2026-10-09T10:45:15.857920-03:00 curzas-alumno-5225 systemd[1514]: Stopping filter-chain.service - PipeWire filter chain daemon...
+2026-10-09T10:45:15.858010-03:00 curzas-alumno-5225 systemd[1514]: Stopping pipewire-pulse.service - PipeWire PulseAudio...
+2026-10-09T10:45:15.858343-03:00 curzas-alumno-5225 systemd[1514]: Stopping xdg-document-portal.service - flatpak document portal service...
+2026-10-09T10:45:15.858807-03:00 curzas-alumno-5225 systemd[1514]: Stopping xdg-permission-store.service - sandboxed app permission store...
+2026-10-09T10:45:15.870601-03:00 curzas-alumno-5225 systemd[1514]: Stopped pipewire-pulse.service - PipeWire PulseAudio.
+2026-10-09T10:45:15.871717-03:00 curzas-alumno-5225 systemd[1514]: Stopped filter-chain.service - PipeWire filter chain daemon.
+2026-10-09T10:45:15.873856-03:00 curzas-alumno-5225 systemd[1514]: Stopped dbus.service - D-Bus User Message Bus.
+2026-10-09T10:45:15.874339-03:00 curzas-alumno-5225 systemd[1514]: Stopped xdg-permission-store.service - sandboxed app permission store.
+2026-10-09T10:45:15.875955-03:00 curzas-alumno-5225 wireplumber[1560]: stopped by signal: Terminado
+2026-10-09T10:45:15.876392-03:00 curzas-alumno-5225 systemd[1514]: Stopping wireplumber.service - Multimedia Service Session Manager...
+2026-10-09T10:45:15.876764-03:00 curzas-alumno-5225 wireplumber[1560]: disconnected from pipewire
+2026-10-09T10:45:15.885733-03:00 curzas-alumno-5225 systemd[1514]: Stopped wireplumber.service - Multimedia Service Session Manager.
+2026-10-09T10:45:15.886249-03:00 curzas-alumno-5225 systemd[1514]: Stopping pipewire.service - PipeWire Multimedia Service...
+2026-10-09T10:45:15.894507-03:00 curzas-alumno-5225 systemd[1]: run-user-120-doc.mount: Deactivated successfully.
+2026-10-09T10:45:15.898653-03:00 curzas-alumno-5225 systemd[1514]: Stopped pipewire.service - PipeWire Multimedia Service.
+2026-10-09T10:45:15.914454-03:00 curzas-alumno-5225 systemd[1514]: Stopped xdg-document-portal.service - flatpak document portal service.
+2026-10-09T10:45:15.915100-03:00 curzas-alumno-5225 systemd[1514]: Removed slice session.slice - User Core Session Slice.
+2026-10-09T10:45:15.915223-03:00 curzas-alumno-5225 systemd[1514]: Stopped target basic.target - Basic System.
+2026-10-09T10:45:15.915353-03:00 curzas-alumno-5225 systemd[1514]: Stopped target paths.target - Paths.
+2026-10-09T10:45:15.916447-03:00 curzas-alumno-5225 systemd[1514]: Stopped ubuntu-report.path - Pending report trigger for Ubuntu Report.
+2026-10-09T10:45:15.916553-03:00 curzas-alumno-5225 systemd[1514]: Stopped target sockets.target - Sockets.
+2026-10-09T10:45:15.916665-03:00 curzas-alumno-5225 systemd[1514]: Stopped target timers.target - Timers.
+2026-10-09T10:45:15.916754-03:00 curzas-alumno-5225 systemd[1514]: Stopped launchpadlib-cache-clean.timer - Clean up old files in the Launchpadlib cache.
+2026-10-09T10:45:15.916844-03:00 curzas-alumno-5225 systemd[1514]: Stopped snap.firmware-updater.firmware-notifier.timer - Timer firmware-notifier for snap application firmware-updater.firmware-notifier.
+2026-10-09T10:45:15.917534-03:00 curzas-alumno-5225 systemd[1514]: Closed dbus.socket - D-Bus User Message Bus Socket.
+2026-10-09T10:45:15.917728-03:00 curzas-alumno-5225 systemd[1514]: Closed dirmngr.socket - GnuPG network certificate management daemon.
+2026-10-09T10:45:15.917888-03:00 curzas-alumno-5225 systemd[1514]: Closed gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+2026-10-09T10:45:15.918040-03:00 curzas-alumno-5225 systemd[1514]: Closed gnome-keyring-daemon.socket - GNOME Keyring daemon.
+2026-10-09T10:45:15.918201-03:00 curzas-alumno-5225 systemd[1514]: Closed gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+2026-10-09T10:45:15.918357-03:00 curzas-alumno-5225 systemd[1514]: Closed gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+2026-10-09T10:45:15.920666-03:00 curzas-alumno-5225 systemd[1514]: Stopping gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+2026-10-09T10:45:15.920824-03:00 curzas-alumno-5225 systemd[1514]: Closed gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+2026-10-09T10:45:15.920989-03:00 curzas-alumno-5225 systemd[1514]: Closed keyboxd.socket - GnuPG public key management service.
+2026-10-09T10:45:15.929665-03:00 curzas-alumno-5225 systemd[1514]: Closed pipewire-pulse.socket - PipeWire PulseAudio.
+2026-10-09T10:45:15.929899-03:00 curzas-alumno-5225 systemd[1514]: Closed pipewire.socket - PipeWire Multimedia System Sockets.
+2026-10-09T10:45:15.930081-03:00 curzas-alumno-5225 systemd[1514]: Closed pk-debconf-helper.socket - debconf communication socket.
+2026-10-09T10:45:15.932667-03:00 curzas-alumno-5225 systemd[1514]: Closed snapd.session-agent.socket - REST API socket for snapd user session agent.
+2026-10-09T10:45:15.932996-03:00 curzas-alumno-5225 systemd[1514]: Closed speech-dispatcher.socket - Speech Dispatcher Socket.
+2026-10-09T10:45:15.977366-03:00 curzas-alumno-5225 systemd[1514]: Closed gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+2026-10-09T10:45:15.979234-03:00 curzas-alumno-5225 systemd[1514]: Removed slice app.slice - User Application Slice.
+2026-10-09T10:45:15.986544-03:00 curzas-alumno-5225 systemd[1514]: Reached target shutdown.target - Shutdown.
+2026-10-09T10:45:15.986800-03:00 curzas-alumno-5225 systemd[1514]: Finished systemd-exit.service - Exit the Session.
+2026-10-09T10:45:15.986918-03:00 curzas-alumno-5225 systemd[1514]: Reached target exit.target - Exit the Session.
+2026-10-09T10:45:16.024519-03:00 curzas-alumno-5225 systemd[1]: user@120.service: Deactivated successfully.
+2026-10-09T10:45:16.024620-03:00 curzas-alumno-5225 systemd[1]: Stopped user@120.service - User Manager for UID 120.
+2026-10-09T10:45:16.024668-03:00 curzas-alumno-5225 systemd[1]: user@120.service: Consumed 1.484s CPU time.
+2026-10-09T10:45:16.027325-03:00 curzas-alumno-5225 systemd[1]: Stopping user-runtime-dir@120.service - User Runtime Directory /run/user/120...
+2026-10-09T10:45:16.045772-03:00 curzas-alumno-5225 systemd[1]: run-user-120.mount: Deactivated successfully.
+2026-10-09T10:45:16.051518-03:00 curzas-alumno-5225 systemd[1]: user-runtime-dir@120.service: Deactivated successfully.
+2026-10-09T10:45:16.052438-03:00 curzas-alumno-5225 systemd[1]: Stopped user-runtime-dir@120.service - User Runtime Directory /run/user/120.
+2026-10-09T10:45:16.061761-03:00 curzas-alumno-5225 systemd[1]: Removed slice user-120.slice - User Slice of UID 120.
+2026-10-09T10:45:16.062031-03:00 curzas-alumno-5225 systemd[1]: user-120.slice: Consumed 5.450s CPU time.
+2026-10-09T10:45:36.010744-03:00 curzas-alumno-5225 systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+2026-10-09T10:45:36.020398-03:00 curzas-alumno-5225 systemd[1]: systemd-localed.service: Deactivated successfully.
+2026-10-09T10:45:38.028632-03:00 curzas-alumno-5225 tracker-miner-fs-3[3170]: (tracker-extract-3:3170): GLib-GIO-WARNING **: 10:45:38.028: Error creating IO channel for /proc/self/mountinfo: Argumento inválido (g-io-error-quark, 13)
+2026-10-09T10:45:59.349573-03:00 curzas-alumno-5225 gnome-shell[2309]: Window manager warning: Ping serial 289552 was reused for window W1, previous use was for window W0.
+2026-10-09T10:46:02.754263-03:00 curzas-alumno-5225 systemd[2062]: Started app-gnome-ubuntu\x2dadvantage\x2dnotification-3181.scope - Application launched by gnome-session-binary.
+2026-10-09T10:46:02.756226-03:00 curzas-alumno-5225 systemd[2062]: Started app-gnome-update\x2dnotifier-3179.scope - Application launched by gnome-session-binary.
+2026-10-09T10:46:04.813793-03:00 curzas-alumno-5225 geoclue[2762]: Service not used for 60 seconds. Shutting down..
+2026-10-09T10:46:04.828900-03:00 curzas-alumno-5225 systemd[1]: geoclue.service: Deactivated successfully.
+2026-10-09T10:46:22.863254-03:00 curzas-alumno-5225 systemd[1]: Starting update-notifier-download.service - Download data for packages that failed at package install time...
+2026-10-09T10:46:23.095951-03:00 curzas-alumno-5225 systemd[1]: update-notifier-download.service: Deactivated successfully.
+2026-10-09T10:46:23.096059-03:00 curzas-alumno-5225 systemd[1]: Finished update-notifier-download.service - Download data for packages that failed at package install time.
+2026-10-09T10:46:41.992774-03:00 curzas-alumno-5225 dbus-daemon[885]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.17' (uid=0 pid=911 comm="/snap/snapd/current/usr/lib/snapd/snapd" label="unconfined")
+2026-10-09T10:46:42.004225-03:00 curzas-alumno-5225 systemd[1]: Starting systemd-timedated.service - Time & Date Service...
+2026-10-09T10:46:42.044317-03:00 curzas-alumno-5225 dbus-daemon[885]: [system] Successfully activated service 'org.freedesktop.timedate1'
+2026-10-09T10:46:42.044798-03:00 curzas-alumno-5225 systemd[1]: Started systemd-timedated.service - Time & Date Service.
+2026-10-09T10:47:12.078853-03:00 curzas-alumno-5225 systemd[1]: Starting monitoreo_5225.service - Monitoreo de red TP3 - ping al gateway (Legajo 5225)...
+2026-10-09T10:47:12.088063-03:00 curzas-alumno-5225 systemd[1]: systemd-timedated.service: Deactivated successfully.
+2026-10-09T10:47:15.152774-03:00 curzas-alumno-5225 diagnostico_red.sh[3268]: 2026-10-09 10:47:12 | gateway 192.168.30.1 | ESTADO: OK | pérdida: 0% | promedio: 0.901 ms
+2026-10-09T10:47:15.161974-03:00 curzas-alumno-5225 systemd[1]: monitoreo_5225.service: Deactivated successfully.
+2026-10-09T10:47:15.162119-03:00 curzas-alumno-5225 systemd[1]: Finished monitoreo_5225.service - Monitoreo de red TP3 - ping al gateway (Legajo 5225).
+2026-10-09T10:50:01.494548-03:00 curzas-alumno-5225 systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-10-09T10:50:01.508353-03:00 curzas-alumno-5225 CRON[3291]: (gisellah) CMD (/home/gisellah/tp3-henriquez-5225/codigo/monitorear_usuarios.sh)
+2026-10-09T10:50:01.516633-03:00 curzas-alumno-5225 systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-10-09T10:50:01.517030-03:00 curzas-alumno-5225 systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-10-09T10:50:07.801118-03:00 curzas-alumno-5225 PackageKit: daemon quit
+2026-10-09T10:50:07.809026-03:00 curzas-alumno-5225 systemd[1]: packagekit.service: Deactivated successfully.
