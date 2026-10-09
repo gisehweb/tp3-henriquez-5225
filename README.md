@@ -12,7 +12,6 @@
 ## Estructura del repositorio:
 tp3-henriquez-5225/
 -├── README.md
-- ├── capturas/ # Capturas de pantalla de la ejecución
 - ├── recursos/
 - │ └── syslog_prueba.txt # Extracto de /var/log/syslog (1000 líneas)
 -├── config/
