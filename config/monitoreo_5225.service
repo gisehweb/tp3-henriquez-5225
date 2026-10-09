@@ -1,0 +1,13 @@
+# monitoreo_5225.service - TP3 Automatización y Scripting
+# Ejecuta el diagnóstico de red (ping al gateway). Lo activa monitoreo_5225.timer.
+[Unit]
+Description=Monitoreo de red TP3 - ping al gateway (Legajo 5225)
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+# oneshot: el script se ejecuta, termina y el servicio vuelve a inactivo
+Type=oneshot
+# Corre con el usuario de la alumna para que el log no quede como root
+User=gisellah
+ExecStart=/home/gisellah/tp3-henriquez-5225/codigo/diagnostico_red.sh

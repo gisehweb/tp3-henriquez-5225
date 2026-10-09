@@ -1,0 +1,14 @@
+# monitoreo_5225.timer - TP3 Automatización y Scripting
+# Activa monitoreo_5225.service cada 5 minutos desde el inicio del sistema.
+[Unit]
+Description=Timer del monitoreo de red TP3 cada 5 minutos (Legajo 5225)
+
+[Timer]
+# Primera ejecución: 1 minuto después del arranque del sistema
+OnBootSec=1min
+# Siguientes: 5 minutos después de la última activación del servicio
+OnUnitActiveSec=5m
+Unit=monitoreo_5225.service
+
+[Install]
+WantedBy=timers.target
